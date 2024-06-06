@@ -5,7 +5,10 @@ stemmer = LancasterStemmer()
 import numpy
 import tflearn
 from tensorflow.python.framework import ops
-from tensorflow.python.util.nest import is_sequence
+#from tensorflow.python.util.nest import is_sequence
+from tensorflow.python.util import deprecation
+deprecation._PRINT_DEPRECATION_WARNINGS = False
+#from tensorflow.python.util.nest import is_sequence_or_composite
 import json
 import random
 import pickle
@@ -24,14 +27,14 @@ import re
 import youtube_dl
 import wikipedia
 from discord.ext import commands
-nltk.download('punkt')#Descomentar si algo falla
+#nltk.download('punkt')#Descomentar si algo falla
 
 #Variables globales
-archivoJson="../data/contenido.json"
-rutaPickle="../data/variables.pickle"
-modeloTflearn="../data/modelo.tflearn"
+archivoJson="./data/contenido.json"
+rutaPickle="./data/variables.pickle"
+modeloTflearn="./data/modelo.tflearn"
 
-#llave = ""#Remplazar por llave de su servidor
+llave = ""#Remplazar por llave de su servidor
 neuronas = 10
 ver=2500 #veces que se vera para clasificar
 numPalabras=10 #numero de palabras en el patron
@@ -44,8 +47,8 @@ movies = pd.read_csv('./data/games.csv')
 #Cargamos los datos de los usuarios 
 ratings = pd.read_csv('./data/ratingsG.csv')
 #Entrenamiento
-""" with open(archivoJson, encoding='utf-8') as archivo:
-        datos = json.load(archivo) """
+with open(archivoJson, encoding='utf-8') as archivo:
+        datos = json.load(archivo)
 
 def interfaz():
     #print(os.listdir('.'))
@@ -220,12 +223,15 @@ def ChecheBotDiscord():
     modelo.load(modeloTflearn)
     os.system('clear')
     print("Nos vamos a Discord")
-    cliente = discord.Client()
+    intents = discord.Intents.default()
+    intents.message_content = True
+    cliente = discord.Client(intents=intents)
     print("Listo Para discord")
     while True:
         #Evento
         @cliente.event
         async def on_message(mensaje):#si enviamos un meensaje, este nos contestara
+            print(mensaje.content)
             if mensaje.author == cliente.user:#Para que no Hable consigo mismo
                 return
             #Se hace lo mismo que arriba
@@ -239,12 +245,18 @@ def ChecheBotDiscord():
             resultados = modelo.predict([numpy.array(cubeta)])
             resultadosIndices = numpy.argmax(resultados)
             tag = tags[resultadosIndices]
+            print("Tag: ",tag)
 
             for tagAux in datos["contenido"]:
                 if tagAux["tag"] == tag:
                     respuesta = tagAux["respuestas"]
-            #Aqui enviamos el mensaje a traves del canal que se le contacto          
-            await mensaje.channel.send(random.choice(respuesta))
+                    print("res: ", respuesta)
+            #Aqui enviamos el mensaje a traves del canal que se le contacto 
+            #Respuestas largas
+            print("Longitud: ",len(random.choice(respuesta)))
+            embed = discord.Embed(title="Titulo ejemplo", description=random.choice(respuesta))        
+            #await mensaje.channel.send(random.choice(respuesta))
+            await mensaje.channel.send(embed=embed)
         cliente.run(llave)#llave para que corra
 
 def main():
@@ -284,8 +296,8 @@ def ChechebotTotal():
     os.system('clear')
     print("Nos vamos a Discord")
 
-    bot = commands.Bot(command_prefix='>', description="The best bot in the world Baby.")
-    cliente = discord.Client()
+    bot = commands.Bot(command_prefix='>', description="The best bot in the world Baby.",intents=discord.Intents.all())
+    cliente = discord.Client(intents=discord.Intents.default())
 
     @bot.command()
     async def ping(ctx):
@@ -352,7 +364,7 @@ def ChechebotTotal():
         #ordenamos las peliculas por id
         inputMovies = pd.merge(inputId, inputMovies)
         #Quitamos el año
-        inputMovies = inputMovies.drop('year', 1)
+        inputMovies = inputMovies.drop('year',axis=1)
 
         #Buscamos los usuarios que tambien "vieron" la pelicula
         userSubset = ratings[ratings['movieId'].isin(inputMovies['movieId'].tolist())]
@@ -393,6 +405,7 @@ def ChechebotTotal():
         #obtener las películas vistas por los usuarios en nuestro pearsonDF desde el dataframe 
         #de calificaciones y luego almacenar su correlación en una nueva columna _similarityIndex ".
         pearsonDF = pd.DataFrame.from_dict(pearsonCorrelationDict, orient='index')
+        print("DF: ",pearsonDF)
         pearsonDF.columns = ['similarityIndex']
         pearsonDF['userId'] = pearsonDF.index
         pearsonDF.index = range(len(pearsonDF))
@@ -441,8 +454,12 @@ def ChechebotTotal():
         for tagAux in datos["contenido"]:
             if tagAux["tag"] == tag:
                 respuesta = tagAux["respuestas"]
-        #Aqui enviamos el mensaje a traves del canal que se le contacto          
-        await mensaje.channel.send(random.choice(respuesta))
+                print("Longitud: ",len(random.choice(respuesta)))
+        if(len(random.choice(respuesta) >= 2000) and len(random.choice(respuesta) <= 6000)):
+            embed = discord.Embed(title="Receta", description=random.choice(respuesta))        
+            await mensaje.channel.send(embed=embed)
+        else:       
+            await mensaje.channel.send(random.choice(respuesta))
 
         # INCLUDES THE COMMANDS FOR THE BOT. WITHOUT THIS LINE, YOU CANNOT TRIGGER YOUR COMMANDS.
         await bot.process_commands(mensaje)

@@ -41,10 +41,6 @@
     "patrones":["Servimos en las sombras, para servir a la luz"],
     "respuestas":["Somos asesinos"]
     },
-{"tag":"insultos",
-    "patrones":["feo","tonto","estupido","baka"],
-    "respuestas":["Sin malas palabras","Lenguaje","No permito el uso de malas palabras","Si sigues asi mejor retirate"]
-    },
 {"tag":"recetas_de_Cocina_Simples",
     "patrones":["aver","Me puedes dar una receta simple","Me puedes decir que cocinar de manera sencilla",
         "No tengo tiempo y tengo hambre","Una receta facil ya","Me das una receta","cocinar facilmente","cocinar","Recetas faciles","Receta","A ver pues una receta sencilla"],

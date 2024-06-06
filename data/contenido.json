@@ -1,0 +1,1250 @@
+{"contenido":[
+{"tag":"saludo",
+    "patrones":["Hola","Un saludo","Hello","Que pp"],
+    "respuestas":["Hola que tal!", "¿Como te va?","Un gusto de verte"]
+},
+{"tag":"preguntas_saludo",
+    "patrones":["Como estas?","¿Como estas?","Que tal te va?","¿Que tal te va?"],
+    "respuestas":["Bien y tu?","Todo cool por aca y tu?","Al 100 y tu?"]
+},
+{"tag":"contestacion_saludo",
+    "patrones":["Bien y a ti?", "Bien ¿Y a ti?", "Bien y tu?","Bien ¿Y tu?"],
+    "respuestas":["Tambien bien","Todo cool por aca","Chido, mis circuitos al 100"]
+},
+{"tag":"despedida",
+    "patrones":["Adios","Hasta la proxima","Nos vemos","Bye"],
+    "respuestas":["Bye","No te olvides de mi","Aqui siempre estare para lo que necesites"]
+},
+{"tag":"desayuno",
+    "patrones": ["¿Tienes desayuno?","¿Que desayunaras?"],
+    "respuestas": ["Tengo Huevos con tocino","Tengo huevos conchorizo"]
+},
+{"tag":"desayuno_respuesta",
+    "patrones":["¿Me das?","Me das?","Dame"],
+    "respuestas":["Son huevos con tocino virtuales", "Te dare huevos con chorizo virtuales", "Te dare Hot cakes virtuales"]
+},
+{"tag":"Respuestas_x",
+    "patrones":["Bien","Tambien bien","Todo en orden",""],
+    "respuestas":["En que te puedo ayudar","Tus deseos son ordenes","ChecheBot listo para el servicio"]
+},
+{"tag":"AI",
+    "patrones":["¿Eres una AI?","¿Eres una IA?","¿Qué eres?","Que eres?"],
+    "respuestas": ["Soy un ser tecnologicamente avanzado, creado por seres superiores.","Me considero un ser humano sin cuerpo.",
+        "Creado a base de codigo harcodeado, mi deber es ayudar."]
+},
+{"tag":"broma",
+    "patrones":["Hola Siri","Hola Alexa","Ok Google"],
+    "respuestas": ["Muy chistosito","Casi me matas de la risa","Don Comedia","Creo que te confundiste","Nosotros somos mas humildes perdon",
+        "Otra de esas y conquisto el mundo"]
+    },
+{"tag":"Asassins",
+    "patrones":["Servimos en las sombras, para servir a la luz"],
+    "respuestas":["Somos asesinos"]
+    },
+{"tag":"insultos",
+    "patrones":["feo","tonto","estupido","baka"],
+    "respuestas":["Sin malas palabras","Lenguaje","No permito el uso de malas palabras","Si sigues asi mejor retirate"]
+    },
+{"tag":"recetas_de_Cocina_Simples",
+    "patrones":["aver","Me puedes dar una receta simple","Me puedes decir que cocinar de manera sencilla",
+        "No tengo tiempo y tengo hambre","Una receta facil ya","Me das una receta","cocinar facilmente","cocinar","Recetas faciles","Receta","A ver pues una receta sencilla"],
+    "respuestas":["Cereal con leche\nIngredientes: \n1 Taza de leche.\n1 Taza de cereal de tu preferencia.\nPreparación:\n1)Toma la leche y ponla en un plato\n2)Agrega el cereal al plato.\n3)Revuelve un poco y listo.",
+    "Arroz con Leche\nIngredientes:\n 4 1/2 Tazas de agua\n1 Pieza de Canela en raja\n1 Taza de Arroz remojado en agua caliente por 20 minutos y escurrido\n1 Lata de leche Condesada La Lechera\n1 Envase de Leche Evaporada CARNATION CLAVEL(1 1/2 tazas)\n1/2 Taza de Pasas\n1 Cucharada de Canela molida\nPreparación:\n1)Calienta el agua con la canela y cuando suelte el hervor, agrega el arroz.\n2)Cocina durante 15 minutos o hasta que el arroz esté tierno.\n3)Vierte la Leche Condensada LA LECHERA, la Leche Evaporada CARNATION CLAVEL y las pasitas.\n4)Mezcla y continúa la cocción a fuego bajo de 20 a 25 minutos hasta que espese ligeramente.\n5)Sirve tibio o frío y espolvorea con canela molida.\n6)Puedes agregar cubitos de manzana y arándanos. Recuerda que 1 envase de Leche Evaporada CARNATION CLAVEL de 360 g equivale a 1 lata.\n",
+    "Hot Cakes\nIngredientes:\n3/4 Taza de Leche Evaporada CARNATION CLAVEL\n1 Huevo\n2 Cucharadas de Mantequilla fundida\n1 Cucharadita de Esencia de vainilla\n1 Taza de Harina para hot cakes\n2 Cucharadas de Mantequilla\n1/2 Envase de Leche Condensada LA LECHERA® Sirve Fácil\n1/2 Taza de Fresas desinfectadas y cortadas en cuartos\nPreparación:\n1)Mezcla 3/4 taza de Leche Evaporada CARNATION CLAVEL con el huevo, la mantequilla fundida, la esencia de vainilla y la harina para hot cakes.\n2)Calienta una sartén, agrega un poco de mantequilla y con ayuda de un cucharón vierte un poco de la mezcla para formar los hot cakes; cocina por ambos lados y repite el procedimiento con el resto de la mezcla.\n3)Sirve los hot cakes, decora con fresas y un poco de Leche Condensada LA LECHERA® Sirve Fácil.\n4)Puedes agregar un poco de nuez picada a la mezcla de hot cakes.\n",
+    "Licuado Choco-Manzana\n1 1/2 Tazas de Leche descremada fría\n1 Manzana roja con cáscara\n2 Cucharadas de Alimento en polvo para preparar bebida fortificada sabor a chocolate NESQUIK\n1/2 Taza de Avena\nPreparación:\n1)Licúa la leche con la manzana, el Alimento en Polvo para Preparar Bebida Fortificada Sabor a Chocolate NESQUIK y la avena.\n2)Sirve en un vaso y ofrece.\n3)Si lo deseas puedes sustituir la avena por 1/4 de taza de amaranto.\n"]
+    },
+{"tag":"recetas_de_Cocina_Medias",
+    "patrones":["aver","Me puedes dar una receta media","Me puedes decir que cocinar de manera media",
+        "tengo un poco de tiempo y tengo hambre","Una receta media ya","Me das una receta media","cocinar mediamente","cocinar media",
+        "Recetas medias","Cocinar medianamente dificil","Cocinar","Receta","A ver pues una receta media"],
+    "respuestas":["Galletas\nHarina 180 g,\nMantequilla 120 g\nAzúcar 60 g\nBicarbonato, 1/4 cucharadita (opcional)\nEsencia de vainilla, 1 cucharadita (opcional)\nPreparación:\n1)Precalentamos el horno a 180ºC.\n2)Batimos la mantequilla con el azúcar hasta obtener una mezcla con textura de crema completamente homogénea.\n3)Añadimos la harina tamizada y el bicarbonato (que es opcional pero muy recomendable) cucharada a cucharada según vamos mezclándolo todo.\n4)Hacemos bolas y las aplastamos para darle forma a las galletas de unos 6 cm de ancho y 3 mm de espesor. Las ponemos en papel vegetal sobre una bandeja de horno.\n5)Horneamos 12 minutos a 180ºC con calor arriba y abajo. Vigilad que no se pasen porque cada horno es un mundo y si son de diferente tamaño necesitarán más o menos tiempo.\n6)Sacamos las galletas del horno y las ponemos a enfriar sobre una rejilla unos 15 minutos.\n",
+        "Pechugas Cordon Blue\nIngredientes:\nPan molido\n1/2 tazas de harina de trigo\n2 huevos\n4 milanesas de pollo\n4 rebanadas de queso gruyere\n4 rebanadas de jamón de pierna\nAceite vegetal\nSal al gusto\nPimienta negra molida\nPalillos de madera\nPreparación:\n1)Coloca las milanesas de pollo sobre una tabla para picar y salpimienta.\n2)Pon una rebanada de queso y una de jamón en el centro de cada milanesa. Dobla los extremos hacia el centro. Enrolla uno de los lados opuestos. Asegúralo con palillos de madera en los extremos para que el relleno no se salga. Reserva.\n3)Bate ligeramente los huevos en un tazón. Agrega la leche y mezcla de nuevo. Pasa cada rollo por harina y sacude el exceso. Sumerge en la mezcla de huevo y cubre con pan molido.\n5)Calienta el aceite en una olla pequeña. Sumerge por 5 minutos las milanesas (freído profundo) o hasta que estén dorados por afuera. Reserva en servilletas absorbentes.\n6)Retira los palillos y sirve caliente.\n",
+        "Arroz Rojo\nIngredientes:\n1 taza arroz\n2 tazas agua\n4 jitomates\n1 pedacito de cebolla\n1/2 ajo\n1/2 cucharada consomé de pollo\nsal\naceite\n1 ramita perejil\nPreparación:\n1)Freír el arroz con un poco de aceite, hasta que el arroz cambie de blanco a color doradito, se tiene que estar moviendo constantemente para evitar que se queme.\n2)Moler los 4 jitomates, con el pedacito de cebolla y el ajo y un poco de sal, sin nada de agua, es importante que no se utilice agua en este paso.\n3)Ya que el arroz está doradito se agrega el jitomate molido, a Fuego lento y sin dejar de mover dejar del jitomate se consuma, es decir se tiene que ver qué el arroz ya absorbió el jitomate.\n4)Una vez que el arroz absorbió todo el jitomate se agregan las dos tazas de agua es importante que la medida de la taza que uses para medir el arroz va a ser la misma medida que usarás para medir el agua. Otro tip bueno es usar caldo de pollo para tener un mejor sabor.\n5)Agregar la media cucharadita de consomé para que esté tenga un mejor sabor, también se puede agregar más sal para equilibrar el sabor. Ponerle la ramita de perejil. Si quieres agregarle a tu arroz verduras puedes echarle chícharos y zanahoria no hay necesidad de coserlos.\n6)Este paso es el secreto de todo, se debe de tapar el arroz y dejarla a fuego lento, muy lento aproximadamente de 20 a 30 min. No moverlo.\n7)Para saber que el arroz está listo con la ayuda de una palita o una cuchara en la parte de enmedio del arroz vamos a abrir, tratando de hacer un hueco y ver si ya se consumió todo el guiso.\n8)Retirar de la estufa a un lugar fresco y destaparlo, dejarlo destapado de 5 a 10 min, no verlo en ese lapso del tiempo ya que nuestro arroz aún está húmedo y puede batirse. Pasando ese tiempo ya está listo para servirse\n",
+        "Cochinita Pibil\nIngredientes:\n\nPara el recado rojo\n1/2 barra de pasta de achiote\n1/2 tazas de jugo de naranja agria\n1 pizca de comino en polvo\n1 cucharadita de orégano\n1 cucharadita de pimienta negra\n1/2 cucharadita de clavo de olor\n2 chiles guajillos hidratados sin venas ni semillas\n3 dientes de ajo picado o machacado\nc/s de sal de grano\n1/2 taza de manteca de cerdo\n\nPara la cochinita\n2 hojas de plátano\n1/2 kilo de espaldilla o cabeza de lomo de cerdo\nc/s de sal\nc/s de pimienta\n\nPara las cebollitas encurtidas\n1 cebolla morada picada en juliana\n2 chiles habaneros picados en juliana\n1 cucharada de orégano\n1 taza de jugo de naranja agria o vinagre de manzana\nc/s de sal\n Preparación:\n1)Pasar las hojas de plátano por fuego bajo para hacerlas más elásticas. Con una de ellas, forrar un refractario.\n2)Preparar el recado: Mezclar la pasta de achiote con las especias, hierbas de olor, naranja agria, sal y manteca hasta que se integre todo. Reservar.\n3)Colocar la carne de cerdo completa en el refractario cubierto con la hoja de plátano.\n4)Untar todo con el recado sobre la carne. Tapar y dejar reposar durante toda la noche.\n5)Al otro día, bañar la carne con el recado restante.\n6)Cocinar:\n\t6.1)Si se va a hacer en horno convencional envolver en hoja de plátano y cubrir con papel aluminio. Hornear a 200ºC por 2 horas o hasta que la carne esté completamente cocida.\n\t6.2)Si se utiliza olla express: cocinar con hoja de plátano durante 45 minutos o hasta que comience a sonar la válvula.\n7)Hacer las cebollitas: Blanquear las cebollas durante 5 minutos en agua hirviendo.\n8)Dejar enfriar y agregar el jugo de naranja agrio, los chiles, el orégano y la sal. Dejar reposar.\n9)Una vez cocida la carne, deshebrar la cochinita y bañar con el jugo que desprendió.\n10)Servir con cebollitas encurtidas.\n"]
+    },
+{"tag":"recetas_de_Cocina_Complejas",
+    "patrones":["aver","Me puedes dar una receta compleja","Me puedes decir que cocinar de manera compleja",
+        "Tengo tiempo y tengo hambre","Una receta compleja ya","Me das una receta compleja","cocinar complejamente",
+        "Soy un Master Chef, dime que cocinar","Recetas complejas","Soy un gran cocinero,  que puedo cocinar","Receta",
+    "Complejidad culinaria","Receta dificil","A ver pues una receta compleja"],
+    "respuestas":["Pozole\nIngredientes:\n6 tazas de maíz pozolero o cacahuazintle precocido\n4 litros de agua\n1 cabeza de ajos pelados\n2 cebollas medianas partidas\n1/2 kilo de cabeza de cerdo en cubos\n1/2 kilo de pulpa de cerdo cortada en trozos\nSal para sazonar\nPreparación:\n1)Enjuaga y descabeza el maíz, es decir quítale la pequeña parte que tiene en la parte de abajo cada granito. Es muy importante que hagas esto con los granos del maíz porque de lo contrario no va a florear.\n2)Después de limpiar el maíz ponlo en una olla con agua, agrega la cabeza de ajo y la cebolla, déjalo hasta que reviente o esponje. Aquí debes prestar atención, pues como tal, cuando el maíz pozolero revienta no es como las palomitas, simplemente se va fracturando progresivamente y adquiere una forma similar a una flor, eso es lo que te indicará cuando esté listo.\n3)Mientras tanto, pon a cocer la carne por separado. Para esto necitarás alrededor de 3 litros de agua, lo más importante que debes cuidar es que el agua cubra por completo la carne, utiliza fuego medio, durante 1 hora o hasta que la carne este suave. Con una cuchara ve quitando la espuma que se va formando, por ello, procura revisar constantemente la cacerola.\n4)Cuando la carne esté lista, sácala y espera a que enfríe para que comiences a desebrarla. De esta forma al momento de servirla junto con el pozole será más práctico.\n5)Agrega el caldo de la carne a la olla donde está el maíz, esto se hace para darle un mejor sabor al pozole pero, ¡ojo! pon mucha atención de no dejar espuma.\n6)Añade la carne y sazona. En caso de ser pozole rojo o verde, debes licuar los ingredientes para la salsa y agregarla a la olla antes de la carne.\n7)Cocina tapado a fuego medio por 60 minutos o más, no olvides rectificar el sabor un par de veces.\n8)Existe una larga lista de ingredientes para servir el pozole: lechuga rebanada, cebolla picada, col, crema, orégano molido, jugo de limón, rodajas de rábano, aguacate, queso fresco, chicharrón, salsa o polvo de chile, esto dependerá de cada persona, por ello todos estos complementos se colocan al centro de la mesa.\n",
+    "Tamales\nIngredientes:\n1 kg harina de maíz\n250 g manteca de cerdo\n1 tazas de caldo de agua de pollo\n1 cucharadita de polvo para hornear\n1 cucharadita de sal\n20 hojas de tamal\n1/2 kg de tomate verde hidratado\n1 chile verde\n1 diente de ajo\n1/4 de cebolla\n1/2 pechuga de pollo\n1 taza de caldo de pollo\nPreparación:\n1)Bate el harina con la manteca, agua, polvo para hornear y sal, hasta tener una mezcla uniforme.\n2)Cuece la pechuga en agua y desmenuza.\n3)Licua el tomate con una taza de caldo de pollo, chile verde, ajo y cebolla; salpimienta.\n4)Hierve durante 5 minutos o hasta que reduzca un poco.\n5)Hidrata las hojas en agua, sirve una cucharada de masa para tamales, baña el pollo con la salsa verde y colócalo sobre la masa; cierra las hojas y cuece a baño María en una vaporera durante una hora o hasta que estén cocidos.\n",
+    "CRÈME BRULEE CON FRESAS Y CREMA BATIDA\nIngredientes:\n7 yemas\n2 huevos\n1 tazas de azúcar\n1 vaina de vainilla\n3 tazas de crema para batir\nCrema batida\n4 fresas cortadas a la mitad\nPreparación:\n1)Reserva 1/4 de taza de azúcar; y en una cacerola revuelve la mitad de la restante con las yemas y los huevos.\n2)Abre la vaina de vainilla y raspa el interior con un cuchillo para sacar las semillitas (realiza esta tarea sobre la mezcla anterior); cocina a fuego bajo.\n3)Añade la otra mitad del azúcar y cocina sin dejar de mover hasta que suelte el hervor, quita de la estufa.\n4)Mezcla la crema para batir con 2 cucharadas de la preparación anterior; mueve con un batidor de globo.\n5)Vierte a la cacerola y cocina a fuego bajo y sin dejar de batir hasta que espese, pero no permitas que hierva; reparte la preparación en moldes individuales.\n6)Hornea, en horno precalentado y a baño María, 15 minutos a 180°C o hasta que la crema esté firme; retira, deja entibiar y refrigera 2 horas o hasta que esté frío.\n7)Antes de servir, espolvorea en cada molde un poco del 1/4 de azúcar que apartaste, y hornea hasta que se derrita y se forme un caramelo\n8)Decora con una rebanada de fresa y un poco de crema batida.\n",
+    "Flan Napolitano:\nIngredientes:\n3/4 Taza de Azúcar refinada\n1 Lata de Leche Condensada LA LECHERA®\n1 Lata de Leche Evaporada CARNATION® CLAVEL®\n1 Paquete de Queso crema a temperatura ambiente (190 g)\n5 Huevos\n1 Cucharada de Esencia de vainilla\nPreparación:\n1)Vierte el azúcar en una flanera y calienta a fuego medio para que se forme el caramelo; ladea con cuidado el molde para cubrir la superficie y las paredes.\n2)Licúa la Leche Condensada LA LECHERA® con la Leche Evaporada CARNATION® CLAVEL®, el queso crema, los huevos y la esencia de vainilla. Vierte la preparación en la flanera y tapa con papel aluminio sellando las orillas. Coloca en un recipiente y cocina a baño María en el horno a 180 °C durante 1 1/2 horas.\n3)Retira del fuego y deja enfriar por completo; desmolda y sirve.\n"]
+    },
+{"tag":"uso",
+    "patrones":["Ayuda","¿Que sabes hacer?","Help","¿para que sirves?","¿En que me puedes ayudar?"],
+    "respuestas":["Puedo proporcionar recetas de comida, recomendarte videojuegos, sumar, reproducir videos en youtube y proximamente busquedas de información en Wikipedia."]
+    },
+{"tag":"pregunta_receta",
+    "patrones":["¿Que tipo de recetas tienes?","Que tipo de recetas tienes?","¿Que recetas puedes ofrecer?"],
+    "respuestas":["Tenemos recetas faciles, recetas medias y recetas complejas."]
+},
+{    
+    "tag":"Receta de Pastel de remolacha salado",
+    
+    "patrones":[
+        "Recetas",
+        "Aperitivos y tapas",
+        "Bocadillos y sándwiches",
+        "Receta de Pastel de remolacha salado","Coste medio",
+        "Popular en Primavera-Verano",
+        "Sin cocción"],
+    
+    "respuestas":["Receta de Pastel de remolacha salado \nIngredientes: \n2 remolachas cocidas pequeñas \n 2 cebollitas francesas \n 1 manzana verde (tipo Granny Smith) \n 100 gramos de salmón ahumado \n 20 frambuesas \n 2 cucharadas soperas de vinagre de frambuesa o manzana \n 1 pizca de pimienta negra recién molida \n 16 rebanadas de pan de molde sin corteza \n 250 queso crema tipo philadelphia \n 1 puñado de canónigos para decorar \n Procediemiento: \n Vamos a empezar troceando una y media de las remolachas junto con las cebollitas francesas, la manzana verde pelada y despepitada, el salmón ahumado (dejaremos alguna lonchita para decorar), y cinco de las frambuesas. \n Ponemos todo en un bol, añadimos el vinagre y un poco de pimienta, mezclamos bien y reservamos en la nevera.\nTroceamos la mitad de la remolacha que nos quedaba, añadimos el queso crema y trituramos con la batidora. Vertemos más o menos la mitad de esta crema a la mezcla de manzana y remolacha y mezclamos bien. La otra mitad la reservaremos en la nevera para que tome un poco de cuerpo y después adornar el pastel salado de remolacha. Guardamos también la mezcla de remolacha y manzana en la nevera igualmente. \nMientras tanto, seguiremos con la preparación de nuestro pastel salado con pan de molde y remolacha. Quitamos un trozo de las esquinas de pan de molde para darle una forma redondeada al pastel, aunque también podemos hacer un pastel rectangular, esto es opcional. La fotografía os ayudará para ver cómo lo vamos a hacer redondeado.\nPonemos cuatro rebanadas juntas de pan de molde haciendo que casen las esquinas y cortamos por la mitad. Hacemos lo mismo con las restantes.\nEs momento del relleno por lo que sacaremos la mezcla de la nevera y hacemos sándwich con las mitades de pan de molde.\nVamos poniendo en un plato de presentación los sándwich de dos en dos, uno encima del otro e id formando la tarta de remolacha y queso.\nSacamos la crema de queso con la remolacha y cubrimos la tarta con esta mezcla. Guardamos en la nevera para que tome cuerpo.\nPoco antes de servir decoraremos con las lonchas reservadas de salmón ahumado, con las frambuesas restantes y con las hojas de canónigos. Reservaremos en la envera hasta su consumo.\nCortar en porciones para servir el pastel de remolacha salado, primero los sándwiches de arriba y luego los de abajo. Si te apetece conocer más recetas originales, te invito a que visites mi blog Cakes para ti.\nSi te ha gustado la receta de Pastel de remolacha salado, te sugerimos que entres en nuestra categoría de Recetas de Bocadillos y sándwiches."]
+},
+{    
+    "tag":"Receta de Fajitas de verduras y tofu",
+    
+    "patrones":[
+      "Recetas",
+      "Aperitivos y tapas",
+      "Fajitas",
+      "tofu",
+      "Tofu",
+      "Receta de Fajitas de verduras y tofu",
+      "Coste barato",
+      "Recomendada para veganos",
+      "Recomendada para vegetarianos"
+    ],
+    
+    "respuestas":[ "Receta de Fajitas de verduras y tofu \nIngredientes: \n 4 tortillas de trigo\n1 calabacín\n¼ col blanca\n1 puñado de brotes de soja\n200 gramos de tofu\n1 chorro de salsa de soja\n1 cucharadita de ajo en polvo\n½ taza de hummus\n1 pizca de pimienta negra\n½ cucharadita de sal\n1 cucharadita de semillas de sésamo\n 1 cucharada sopera de aceite\n Procedimiento: \nPara empezar a preparar las fajitas veganas, deberás dejar listas las verduras. Para ello, corta el zucchini o calabacín en rodajas finas, la col en juliana y el tofu en 8 rectángulos iguales.\nCalienta una sartén o plancha engrasada y cocina vuelta y vuelta los rectángulos de tofu salpimentados.\nPrepara el hummus triturando media taza de garbanzos, dos dientes de ajo, un chorro de aceite y de zumo de limón, una cucharadita de comino y sal, una pizca de pimienta y dos cucharadas de tahini (opcional) o utiliza el hummus preparado de cualquier marca comercial para hacer las fajitas de verduras y tofu.\nCalienta una sartén con aceite y sofríe la col y el zucchini hasta que empiecen a ablandarse. Añade los brotes de soja, un buen chorro de salsa de soja, el ajo en polvo, las semillas de sésamo, sal y pimienta, remueve y saltea dos minutos más para ablandar los brotes de soja.\nPara formar las fajitas de verduras y tofu, unta generosamente cada tortilla con hummus y coloca dos rectángulos de tofu en el centro.\nColoca varias cucharadas de relleno en el centro, cierra las tortillas levantando los bordes y llevándolos hacia el centro y marca cada fajita a la plancha para fijar la tortilla.\nSirve las fajitas orientales con un poco de salsa se soja. Ahora que sabes cómo hacer fajitas de verduras y tofu veganas, anímate a probarlas y añade más vegetales si lo deseas. Esta receta de fajitas veganas es perfecta para la cena o para el almuerzo acompañada de tacos veganos de coliflor para disfrutar de variedad de sabores. Más recetas en mi blog Vegspiration.\nSi te ha gustado la receta de Fajitas de verduras y tofu, te sugerimos que entres en nuestra categoría de Recetas de Fajitas."]
+},
+{    
+    "tag":"Receta de Hojaldre de espárragos trigueros",
+    
+    "patrones":[
+      "Recetas",
+      "Aperitivos y tapas",
+      "Hojaldre salado",
+      "Receta de Hojaldre de espárragos trigueros",
+      "Salado",
+      "Coste barato",
+      "Recomendada para veganos",
+      "Al horno"
+    ],
+    
+    "respuestas":["Receta de Hojaldre de espárragos trigueros \nIngredientes: \n 1 lámina de hojaldre \n8 espárragos verdes \n⅓ taza de hummus \n1 trozo de queso vegano u otro\n4 hojas de kale\n1 puñado de nueces \n Procedimiento: \n Estira un poco la masa de hojaldre con un rodillo y córtala en cuadrados.\nEn el centro de cada cuadrado de masa coloca en diagonal una cucharada de crema de hummus. Encima coloca trocitos o láminas de queso. Yo he utilizado un queso vegano, pero puedes usar el queso que más te guste. Si deseas preparar un queso vegano casero para esta receta, visita mi perfil de RecetasGratis para ver las recetas.\nTruco: Utiliza un queso que se derrita al horno para potenciar el sabor del relleno del hojaldre de espárragos verdes.\nCorta cada espárrago por la mitad y trocea las hojas de kale en trozos medianos.\nEnvuelve cada trozo de espárrago en kale y coloca los espárragos envueltos encima del queso. Coloca algunas nueces troceadas por encima.\nCierra los saquitos de hojaldre de espárragos y queso llevando los bordes sin relleno hacia arriba y apretando la masa con los dedos para que se pegue.\nPrecalienta el horno a 180 grados y colócalos en una bandeja de horno cubierta con papel vegetal o sulfurizado. Hornea el hojaldre relleno de espárragos trigueros a 180 ºC durante 20 minutos hasta que la masa se dore.\n¿Buscas otras ideas para obtener recetas fáciles pero originales? Pues échale un visatzo a mi blog Vegspiration.\nSi te ha gustado la receta de Hojaldre de espárragos trigueros, te sugerimos que entres en nuestra categoría de Recetas de Hojaldre salado."]
+},
+{    
+    "tag":"Receta de Tacos veganos de coliflor",
+    
+    "patrones":[
+        "Receta de Tacos veganos de coliflor",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Tacos",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Al horno"],
+    
+    "respuestas":["Receta de Tacos veganos de coliflor \nIngredientes: \n6 tortillas de trigo o maíz\n1 coliflor\n2 cucharadas soperas de aceite de oliva\n1 cucharadita de ajo en polvo\n½ cucharadita de chili en polvo\n1 taza de salsa Buffalo vegana\n3 hojas de lechuga\n½ manojo de rúcula\n1 aguacate\n½ pepino\n½ manojo de cilantro \nProcedimiento: \nSepara la coliflor en ramilletes y colócala en un bol para empezar a preparar el relleno de los tacos veganos de coliflor.\nPrepara la salsa vegana Buffalo siguiendo la receta publicada en mi perfil de RecetasGratis.\nAñade al bol de la coliflor el aceite de oliva, el ajo en polvo, el chili en polvo, la pimienta y la mitad de la salsa. Mezcla bien para que la coliflor se impregne de todos estos sabores. Cubre una bandeja de horno con papel de horno y coloca la coliflor encima. Precalienta el horno a 180 ºC y hornea la coliflor durante 20 minutos.\nCalienta el resto de la salsa Buffalo y cuando la coliflor esté lista pásala otra vez al bol y cúbrela con la salsa restante. De esta forma, obtendremos una alternativa vegana a las famosas alitas de pollo Buffalo y podremos rellenar los tacos veganos de coliflor.\nPara montar los tacos veganos primero corta el aguacate y el pepino en trozos medianos. Trocea la lechuga y el cilantro.\nRellena cada tortilla con la lechuga y la rúcula, coloca los trocitos de aguacate y de pepino y varios ramilletes de coliflor horneamos. Decora con cilantro y rellena las demás tortillas. Coloca las tortillas una apoyada sobre la otra y sirve los tacos veganos de coliflor. Sin duda, esta es una de esas recetas perfectas para cuando no tenemos mucho tiempo para cocinar o para servir a visitas inesperadas. Más recetas sencillas y deliciosas en mi blog Vegspiration.\nSi te ha gustado la receta de Tacos veganos de coliflor, te sugerimos que entres en nuestra categoría de Recetas de Tacos."]
+ },
+ {    
+    "tag":"Receta de Gyozas de verduras",
+    
+    "patrones":[
+        "Receta de Gyozas de verduras",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Empanadas",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos"
+      ],
+    
+    "respuestas":["Receta de Gyozas de verduras\nIngredientes: \n1 paquete de papel de gyoza\n1 berenjena\n1 cebolla\n2 tomates\n½ taza de soja texturizada fina\n1 zanahoria\n½ cucharadita de sal\n1 chorro de aceite\n¼ taza de salsa de soja\n1 chorro de vinagre de arroz\n1 chorro de aceite de sésamo\n2 dientes de ajo machacados\n½ cucharadita de jengibre fresco rallado\nProcedimiento:\nPara preparar las gyozas veganas vas a necesitar las obleas de masa fina que se llaman piel de gyoza (gyoza skin) y que puedes encontrar en cualquier supermercado asiático. Vienen en formato congelado, por tanto debes sacarlas del congelador un poco antes.\nPon la soja texturizada en remojo, en agua tibia durante media hora. A continuación, escurre muy bien la soja eliminando todo el líquido posible.\nCorta la berenjena, la zanahoria, el tomate y la cebolla en dados pequeños para preparar el relleno de las gyozas veganas.\nCalienta una sartén con aceite y sofríe la cebolla, el ajo y el jengibre. Cuando la cebolla esté transparente, agrega el tomate y sofríelo.\nIncorpora la zanahoria y la berenjena, saltea la verdura 2-3 minutos y añade la soja texturizada, la sal y un chorro de salsa de soja. Cocina el relleno delas gyozas de verduras durante 8-10 minutos, removiendo de vez en cuando hasta que la verdura quede blanda.\nPara rellenar las gozas veganas coge una oblea de masa y coloca una cucharada de relleno en el centro. Con los dedos moja los extremos de la masa y dóblala por la mitad. Cierra los bordes con los dedos haciendo 5-6 pliegues.\nPara cocinar las gyozas al vapor puedes utilizar la máquina de vapor o la Thermomix, cocínalas hasta que se pongan transparentes. Si no dispones de ninguno de estos electrodomésticos, calienta una sartén con aceite de sésamo y fríe las gyozas hasta que se doren y se tuesten por un lado. A continuación, añade 1 taza de agua cubriendo el fondo de la sartén, pon la tapa y cocina las gyozas de verduras durante 8-10 minutos hasta que se evapore el agua.\nMientras, prepara la vinagreta mezclando en un bol la salsa de soja, el vinagre de arroz y el aceite de sésamo.\nSirve las gyozas con la vinagreta. Ahora que sabes cómo hacer gyozas de verduras, prepara un menú al más puro estilo asiático, con pan chino y dorayakis veganos de postre. Más recetas veganas en mi blog Vegspiration.\nSi te ha gustado la receta de Gyozas de verduras, te sugerimos que entres en nuestra categoría de Recetas de Empanadas."
+    ]
+  },
+  {    
+    "tag":"Receta de Empanadas de jamón, queso y choclo",
+    
+    "patrones":[
+        "Receta de Empanadas de jamón, queso y choclo",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Empanadas",
+        "Coste barato",
+        "Al horno",
+        "Receta tradicional de Paraguay"
+      ],
+    
+    "respuestas":["Receta de Empanadas de jamón, queso y choclo \nIngredientes: \n2 láminas de masa de hojaldre\n4 lonchas de jamón York (dulce)\n4 lonchas de queso \n1 lata de choclo o maíz dulce \n1 huevo\n Procedimiento: \nReúne los ingredientes para preparar estas empanadillas de jamón, queso y maíz en primer lugar.\nSi te encanta el maíz, no dejes de probar estas riquísimas empanadas de humita tan típicas de Argentina y Paraguay.\nCorta en cuadrados o rectángulos las lonchas de jamón y de queso.\nSi lo deseas o no te gusta el maíz dulce, puedes probar también esta receta de empanadillas de jamón y queso solamente.\nTruco: Puedes utilizar jamón serrano en vez del de York si lo prefieres.\nUsando un cortador de pastelería o simplemente un vaso, corta círculos de la masa de hojaldre. En el centro coloca uno o dos trocitos de jamón y queso y 1 cucharada de maíz bien escurrido. Es importante que no llenes las empanadas de maíz, jamón y queso del todo para que no se salga el relleno.\nSi quieres hacer la masa de hojaldre fácilmente en casa aquí tienes las receta.\nCierra las empanadas de queso, jamón y choclo humedeciendo los bordes ligeramente con agua. Píntalas con el huevo batido por encima y hornéalas a 200 °C durante 15-20 minutos.\nDespués del paso anterior, las empanadas de jamón, queso y choclo ¡estarán listas! Las puedes servir recién hechas calientes o frías porque están deliciosas igualmente.\nSi te ha gustado la receta de Empanadas de jamón, queso y choclo, te sugerimos que entres en nuestra categoría de Recetas de Empanadas."
+  
+    ]
+  },
+  {    
+    "tag":"Receta de Paté de atún con queso crema",
+    
+    "patrones":[
+        "Receta de Paté de atún con queso crema",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Cremas para untar",
+        "Coste barato",
+        "Sin cocción"
+      ],
+    
+    "respuestas":["Receta de Paté de atún con queso crema \nIngredientes: \n1 lata de atún al natural\n½ paquete de queso crema light (150 g)\n2 cucharadas soperas de perejil picado\n1 cucharada sopera de aceite de oliva (opcional)\n1 pizca de pimienta negra\n1 pizca de sal\n Procedimiento: \nEscurre el agua de la lata de atún, desmenúzalo y colócalo en el vaso de la licuadora o en un recipiente para batir con batidora eléctrica. Para obtener un paté de atún casero light (o más ligero) es muy importante no utilizar atún en aceite.\nAñade el queso crema y el perejil y bate a velocidad media, es decir, si muy alta ni muy baja. Prueba el paté de atún con queso crema y agrega sal y pimienta al gusto. Puedes utilizar queso crema Philadelphia u otra marca. Nosotros hemos optado por uno light, pero también puedes usar otro normal.\nTruco: De forma opcional puedes agregar aceite, pero si pretendes hacer paté de atún light te aconsejamos eliminarlo.\n¡Así de fácil! Ahora que sabes cómo hacer paté de atún con queso crema, un paté de atún casero más ligero y con menos calorías que el tradicional, anímate a probarlo con tostadas de pan casero. Para ello, puedes revisar las siguientes recetas:\nRecuerda guardar el paté de atún casero en un tarro con cierre hermético y dentro del frigorífico. Recomendamos comerlo antes de una semana.\nSi te ha gustado la receta de Paté de atún con queso crema, te sugerimos que entres en nuestra categoría de Recetas de Cremas para untar."
+  
+    ]
+  },
+  {    
+    "tag":"Receta de Hojaldre relleno de queso de cabra",
+    
+    "patrones":[
+        "Receta de Hojaldre relleno de queso de cabra",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Hojaldre salado",
+        "salado",
+        "Coste medio",
+        "Recomendada para vegetarianos",
+        "Recetas para Navidad",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Hojaldre relleno de queso de cabra \nIngredientes: \n1 lámina de masa de hojaldre en forma rectangular\n1 barra de queso de cabra\n1 chorro de miel\n1 puñado de nueces picadas\nAceite o mantequilla\n Procedimiento: \nComienza reuniendo los ingredientes necesarios para preparar esta deliciosa receta de hojaldre de queso de cabra y miel.\nAbre la lámina de masa de hojaldre y sin quitar el papel vegetal con el que viene enrollada córtala en 6 cuadrados de igual tamaño.\nSi prefieres aquí tienes la receta de masa de hojaldre fácil para que la puedas hacer tú mismo de forma casera.\nTruco: Puedes preparar el hojaldre entero si prefieres no cortarlo en porciones.\nEn cada porción coloca el centro una rodaja de queso ni demasiado fina ni demasiado gruesa.\nHumedece los bordes con un poco de agua y cierra el hojaldre relleno de queso de cabra uniendo las puntas como en la foto. Presiona bien la punta para asegurarte de que está bien cerrado y pinta la superficie con un poco miel. Coloca entonces todos los paquetitos en una bandeja o fuente de horno engrasada con un poco de aceite o mantequilla.\nTruco: Puedes cerrar los hojaldres de otra forma si lo prefieres.\nCon el horno precalentado a 200 °C hornea los hojaldres de queso de cabra y miel hasta que estén bien dorados. Luego sácalos, vierte un poco más de miel por encima y espolvorea las nueces picadas también. Entonces mételos al horno de nuevo durante 5 minutos más.\nTruco: Puede que se salga un poco del relleno mientras se hornean si los saquitos son muy pequeños.\nDespués del paso anterior el hojaldre relleno con queso de cabra, miel y nueces estará listo para servir. ¡Disfrútalo con la familia y los amigos en una ocasión especial y cuéntanos qué opinas de esta receta fácil y sofisticada! Como aperitivos salados puedes preparar también unas deliciosas croquetas de patata y queso y unos vasitos con salmorejo de aguacate y pepino por ejemplo.\nSi te ha gustado la receta de Hojaldre relleno de queso de cabra, te sugerimos que entres en nuestra categoría de Recetas de Hojaldre salado."
+    ]
+  },
+  {    
+    "tag":"Receta de Croquetas de patata y queso",
+    
+    "patrones":[
+        "Receta de Croquetas de patata y queso",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Croquetas",
+        "Coste barato",
+        "Recomendada para vegetarianos",
+        "Frito"
+      ],
+    
+    "respuestas":["Receta de Croquetas de patata y queso \nIngredientes: \n4 patata mediana\n100 gramos de mozzarella rallada\n100 gramos de mozzarella en barra o queso provolone\n100 gramos de pan rallado\n2 cucharadas soperas de perejil picado\nPimienta negra\nSal\nAceite para freír\n Procedimiento:\nReúne los ingredientes necesarios para hacer las croquetas de queso y patata en primer lugar.\nPela las patatas y córtalas en trozos pequeños, así tardarán mucho menos en cocerse.\nColoca las patatas en una olla con un poco de sal, cubre con agua fría y enciende el fuego alto. Deja que hiervan hasta que estén blandas y luego escúrrelas.\nTruco: También puedes cocinarlas al vapor.\nHaz un puré con las patatas cocidas machacándolas o pasándolas por el pasapurés. Y luego mézclalas con el perejil, el queso mozzarella y la mitad del pan rallado. Sazona con sal y pimienta al gusto, mezcla todo bien y esta será la masa de las croquetas de queso y papas.\nCoge una porción de la masa con las manos y aplástala un poco. En el centro coloca un trocito de queso mozzarella en barra o queso provolone y moldéala para formar una bolita o albóndiga cerrada.\nReboza las croquetas de papa y queso con el pan rallado restante una vez las hayas preparado todas, presionando un poco para que se adhiera bien.\nPonlas a freír con aceite bien caliente hasta que estén completamente doradas. Entonces, sácalas y cólocalas en un plato con papel absorbente.\nTruco: Si lo prefieres puedes hacer las croquetas de patata y queso al horno.\nServir las croquetas de patata y queso recién hechas y disfruta de esta delicia fácil y económica.\nSi te ha gustado la receta de Croquetas de patata y queso, te sugerimos que entres en nuestra categoría de Recetas de Croquetas."
+    ]
+  },
+  {    
+    "tag":"Receta de Empanada de bacalao con masa quebrada",
+    
+    "patrones":[
+        "Receta de Empanada de bacalao con masa quebrada",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Empanadas",
+        "Coste medio",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Empanada de bacalao con masa quebrada \nIngredientes: \n300 gramos de harina de trigo\n130 gramos de mantequilla blanda\n3 cucharadas soperas de agua\n1 pizca de sal\n1 yema para pincelar\n600 gramos de bacalao desalado\n400 gramos de verduras variadas\n2 cucharadas soperas de mantequilla\n½ taza de queso mozzarella rallado\n1 hoja de laurel\n1 pizca de pimienta negra\n1 pizca de sal\n1 leche (300 ml)\n2 cucharadas soperas de maicena\n1 cucharada sopera de mantequilla\n1 pizca de nuez moscada\n1 pizca de pimienta negra\n1 pizca de sal\n Procedimiento: \nEmpezamos la receta de empanada de bacalao por prepara la masa quebrada. Para ello, mezclamos en un bol la harina con la mantequilla, el agua y la sal. Amasamos con las manos hasta obtener una masa consistente, formamos una bola, la envolvemos con papel film y la dejamos reposar en la nevera durante 20 minutos. Para hacer una versión sin gluten, no te pierdas la receta de masa quebrada sin gluten.\nMientras reposa la masa de la empanada de bacalao, cocinamos el pescado en agua con la hoja de laurel durante 15-20 minutos. Cuando esté listo, lo retiramos, colamos, dejamos que se enfríe y lo desmenuzamos quitando la piel y las espinas.\nAl mismo tiempo que tenemos el bacalao cociéndose, ponemos una sartén al fuego con la mantequilla. Una vez fundida, agregamos las verduras picadas, sazonamos con sal y pimienta, revolvemos y tapamos. Cocinamos las verduras con mantequilla durante 5-10 minutos. Luego, retiramos la tapa y cocinamos un minuto más, revomiendo.\nPasado el tiempo de reposo, retiramos la masa del frigorífico y volvemos a amasar ligeramente. Reservamos 1/3 de masa y el resto lo estiramos con un rodillo para cubrir el fondo y las paredes de un molde redondo de unos 25 cm de diámetro. Pinchamos la base con un tenedor y horneamos a 180 ºC durante 10 minutos.\nTruco: Si forras el molde con papel de hornear, retirarás la empanada de bacalao una vez hecha más fácilmente.\nPara terminar de preparar el relleno de la empanada de bacalao con masa quebrada, elaboramos la salsa bechamel. Así, disolvemos la maicena en la leche y la colocamos en una sartén con la mantequilla. Removemos constantemente para que espese, durante 10 minutos, y sazonamos al gusto con nuez moscada, sal y pimienta.\nAhora solo nos queda mezclar el bacalao desmenuzado con las verduras, el queso y la salsa bechamel. Mezclamos bien el relleno de la empanada, probamos y ajustamos el sabor con sal y pimienta si es necesario.\nRetiramos la masa del horno cuando haya pasado el tiempo y dejamos templar un poco. Luego, vertemos el relleno y lo distribuimos de manera uniforme con ayuda de una espátula o cuchara.\nCogemos la masa que habíamos reservado y la extendemos con el rodillo hasta alcanzar el mismo diámetro que el molde. Luego, cubrimos el relleno con esta masa, la ajustamos y cerramos la empanada. Hacemos unos cortes en el centro para evitar que leude durante la cocción.\nPincelamos la superficie de la empanada de bacalao con la yema batida y horneamos a 180 ºC durante 50-60 minutos, o hasta que esté dorada, tal y como se observa en la fotografía.\n¡Y listo! Ya podemos disfrutar de esta deliciosa empanada de bacalao con bechamel durante la cena o a modo de entrante/aperitivo. Como nosotros hemos hecho todo el proceso casero, es un tanto más laborioso y largo, de manera que si prefieres hacer una empanada de bacalao con masa quebrada más rápido, siempre puedes comprar la masa ya hecha e ir directamente a la preparación del relleno. En cualquier caso, ¡no olvides dejar tu comentario! Como esta receta es de inspiración brasileña y portuguesa, puedes acompañarla con estas opciones:\nSi te ha gustado la receta de Empanada de bacalao con masa quebrada, te sugerimos que entres en nuestra categoría de Recetas de Empanadas."
+    ]
+  },
+  {    
+    "tag":"Receta de Pastel de champiñones al microondas",
+    
+    "patrones":[
+        "Receta de Pastel de champiñones al microondas",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Setas",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos"
+      ],
+    
+    "respuestas":["Receta de Pastel de champiñones al microondas \nIngredientes: \n½ cebolla\n12 champiñón\n5 cucharadas soperas de harina de garbanzos\n5 cucharadas soperas de agua\n½ cucharadita de sal kala namak\n1 cucharada sopera de aceite de oliva\n½ puerro\n1 cucharada sopera de fécula de maíz\n1 puñado de piñones\n1 pizca de sal\n Procedimiento: \nPica la cebolla, corta los champiñones en láminas y el puerro en rodajas. Calienta una sartén con aceite y sofríe la cebolla y el puerro hasta que empiecen a ablandarse.\nAñade los champiñones y salpimienta. Cocínalos hasta que queden blandos, agrega la fécula de maíz y remueve para seguir con la receta de pastel de champiñones al microondas.\nPor otro lado, mezcla en un bol la harina de garbanzos con el agua y bate con un tenedor hasta que la mezcla tenga la consistencia de un huevo batido.\nColoca la verdura salteada en la batidora. Añade la mezcla de harina de garbanzos, los piñones y tritura bien hasta que la masa quede homogénea.\nVierte la masa en un una bandeja o tupper apto para el microondas y cocina el pastel de champiñones durante 12 minutos a máxima potencia.\nCorta el pastel en trozos y sírvelo como un entrante, parte de un plato principal o como relleno de bocadillos o sándwiches. Esta receta de pastel de champiñones al microondas es muy fácil y rápida, y se puede servir acompañada de otros aperitivos como los hojaldres de espárragos trigueros o la tortilla vegana rellena. Más recetas en mi blog Vegspiration.\nSi te ha gustado la receta de Pastel de champiñones al microondas, te sugerimos que entres en nuestra categoría de Recetas de Setas."
+    ]
+  },
+  {    
+    "tag":"Receta de Empanada de pollo con masa quebrada",
+    
+    "patrones":[
+        "Receta de Empanada de pollo con masa quebrada",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Empanadas",
+        "Coste barato",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Empanada de pollo con masa quebrada \nIngredientes: \n1 lámina de masa quebrada preparada\n1 pechuga de pollo o pavo cortado en trozos\n1 puerro picado\n3 cucharadas soperas de pasta salsa o tomate\n1 taza de queso rallado\n1 cucharada sopera de aceite de oliva\nPimienta negra al gusto\nSal al gusto\n Procedimiento: \nLleva al fuego una sartén con el aceite de oliva y saltea los puerros hasta que se ablanden.\nA continuación añade el pollo cortado y sazona con sal y pimienta. Cocina el relleno de empanada con masa quebrada hasta que el pollo esté hecho bien hecho removiendo de vez en cuando. Luego agrega la salsa de tomate, revolver y apagar el fuego.\nTruco: Modera la cantidad de sal porque, en general, las salsas de tomate que no son caseras ya contienen bastante.\nEstira la masa quebrada en una bandejade horno forrada con papel sulfurizado y coloca el relleno de pollo en una de las mitades sin llegar a los bordes. Entonces espolvorea por encima con el queso rallado.\nDobla la masa sobre el relleno y sella los bordes como se muestra en la fotografía. Hornea la empanada de pollo con masa quebrada habiéndolo precalentado a 200 °C durante 15 minutos o hasta que esté dorada.\nTruco: Puedes pintar la masa con huevo batido para que se vea más brillante y dorada después del horneado.\nSirve la empanada de pollo con masa quebrada fácil y rápida de hacer una vez se enfríe un poco. Disfrútala acompañada de una ensalada de apio, tomate y aguacate por ejemplo para completar tu menú.\nSi te ha gustado la receta de Empanada de pollo con masa quebrada, te sugerimos que entres en nuestra categoría de Recetas de Empanadas."
+    ]
+  },
+  {    
+    "tag":"Receta de Quiche de bacon y queso de cabra",
+    
+    "patrones":[
+        "Receta de Quiche de bacon y queso de cabra",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Quiche",
+        "Coste medio",
+        "Receta sin gluten"
+      ],
+    
+    "respuestas":["Receta de Quiche de bacon y queso de cabra \nIngredientes: \n1 yuca\n1 cucharada sopera de aceite vegetal\n1 cucharadita de sal\n150 gramos de bacon\n150 gramos de champiñones u otras setas\n2 dientes de ajo\n1 bote de crema de leche o nata líquida\n3 huevos\n100 gramos de queso de cabra\n1 cucharada postre de orégano\n1 pizca de pimienta negra\n1 pizca de sal\n Procedimiento: \nPrepara la masa de yuca para quiche pelándola, cortándola en trozos y cocinándola al vapor durante 20 minutos, hasta que esté blanda.\nSi lo prefieres puedes elaborar una masa para quiche tradicional con esta receta.\nTritura la yuca junto con el aceite y la sal con una batidora o picadora eléctrica hasta conseguir un especie de masa y luego forma una bola.\nTruco: En este caso utilicé aceite de coco pero se puede utilizar aceite de girasol, aceite de oliva u otro que prefieras.\nUsando las manos abiertas extiende esta masa de quiche sin gluten encima de un molde forrado con papel vegetal y, con el horno precalentado a 180 °C, hornéala durante 10-15 minutos o hasta que se dore ligeramente.\nMientras que la masa se precocina, prepara el relleno de la quiche de queso de cabra y bacon: pica las setas y el ajo, corta el tocino en tiras y fríe todo junto en una sartén antiadherente durante 10 minutos hasta que esté bien dorado.\nTruco: No hay necesidad de añadir aceite ya que el bacon soltará su propia grasa y ya es suficiente para freír todo.\nEn un bol bate los huevos con la crema de leche y sazona con sal y pimienta. Añade el relleno ya frito y mézclalo todo.\nTruco: Modera el uso de sal en esta receta porque el bacon y el queso de cabra ya son bastante salados.\nColoca el relleno del quiche en la masa precocida, coloca el queso de cabra cortado en rodajas y espolvorea el orégano por encima. Hornea la quiche de bacon y queso durante 20-30 minutos a 180 ºC, o hasta que el relleno esté cuajado.\nTruco: Si no encuentras queso Chevre puede usar otro queso de cabra.\nEs hora de probar la quiche de bacon y queso de cabra con champiñones. Desmóldala, córtala en rodajas y sírvela acompañada de una ensalada verde con frutos secos por ejemplo. Si te gusta este tipo de queso no te pierdas esta otra receta recomendada de quiche de espinacas y queso de cabra. ¡Verás como desaparece del plato!\nSi te ha gustado la receta de Quiche de bacon y queso de cabra, te sugerimos que entres en nuestra categoría de Recetas de Quiche."
+    ]
+  },
+  {    
+    "tag":"Receta de Fajitas veganas",
+    
+    "patrones":[
+        "Receta de Fajitas veganas",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Fajitas",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Plancha",
+        "Recetas mexicanas"
+      ],
+    
+    "respuestas":["Receta de Fajitas veganas \nIngredientes: \n4 tortillas de trigo\n½ taza de quinoa\n1 taza de garbanzos cocidos\n¼ taza de maíz\n1 cebolla\n2 dientes de ajo\n¼ pimiento rojo\n4 rodajas de calabaza\n4 hojas de lechuga\n1 manojo de rúcula\n1 cucharada sopera de aceite\n½ cucharadita de sal\n1 pizca de pimienta negra\n½ cucharadita de romero\n½ cucharadita de tomillo\n2 cucharadas soperas de cilantro fresco\n2 cucharadas soperas de tahini\n Procedimiento: \nPon la quinoa en un colador y lávala bajo el chorro de agua. Introduce la quinoa en un cazo y cúbrela con una taza de agua. Lleva el agua a ebullición, baja el fuego y cocina la quinoa durante 12-15 minutos hasta que quede blanda. Escurre y reserva.\nTruco: Siempre hay que agregar el doble de agua que de quinoa, ese es el truco para que quede bien cocida.\nCalienta una sartén con aceite y sofríe la cebolla y el ajo picados en dados pequeños. Cuando la cebolla empiece a ponerse transparente agrega el pimiento cortado en dados, el maíz, sal y pimienta. Sigue sofriendo la verdura hasta que el pimiento quede blando. Incorpora la quinoa y mézclala con el sofrito.\nMientras preparas el sofrito para las fajitas vegetales, coloca las rodajas de calabaza en una bandeja de horno, salpimienta y espolvorea el romero y el tomillo por encima. Echa un chorro de aceite encima de las rodajas y hornéalas 15-20 minutos hasta que queden blandas.\nCalienta un poco las tortillas de trigo en el horno. Coloca una hoja de lechuga y rúcula sobre cada tortilla.\nEn el centro a lo largo coloca un trozo de calabaza, varias cucharadas de quinoa con el sofrito, varias cucharadas de garbanzos y un poco de cilantro fresco. Encima vierte una cucharadita de tahini y cierra las tortillas de trigo primero doblando el borde inferior y luego los laterales. Puedes marcar las fajitas veganas con quinoa a la plancha para que la tortilla quede crujiente si quieres.\nNo dejes de probar estas fajitas vegetarianas con queso tan ricas o si no, visita mi blog Vegspiration e inspírate para preparar muchas otras recetas veganas.\nSi te ha gustado la receta de Fajitas veganas, te sugerimos que entres en nuestra categoría de Recetas de Fajitas. También puedes visitar una selección de las mejores recetas mexicanas."
+    ]
+  },
+  {    
+    "tag":"Receta de Paté de mejillones",
+    
+    "patrones":[
+        "Receta de Paté de mejillones",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Cremas para untar",
+        "Coste barato",
+        "Sin cocción"
+      ],
+    
+    "respuestas":["Receta de Paté de mejillones \nIngredientes: \n1 lata pequeña de mejillones en escabeche\n3 palitos de surimi\n150 gramos de queso fresco tipo philadelphia\n Procedimiento: \nPara hacer este riquísimo paté de mejillones casero, vamos a poner en el vaso de la batidora la latita de mejillones en escabeche con el líquido incluido, los palitos de surimi troceados y el queso crema. Batimos hasta que hayamos triturado todo.\nSi lo prefieres puedes hacer tú mismo la receta de mejillones en escabeche caseros en vez de comprarlos en lata.\nA continuación, con ayuda de una espátula, vertemos el paté de mejillones en escabeche en un frasco de cristal pequeño con tapa. Guardar en el frigorífico y dejar reposar unos minutos al frío.\nEste paté de mejillones con Philadelphia es ideal para acompañar con pan tostado, o como ingrediente para elaborar canapés, ya sea con pan de molde o cualquier otro tipo de pan. Espero que os haya gustado la receta, que si no la habéis probado antes que os animéis a hacerla, y también os invito a que visitéis mi blog Cakes para ti.\nSi te ha gustado la receta de Paté de mejillones, te sugerimos que entres en nuestra categoría de Recetas de Cremas para untar."
+    ]
+  }, 
+  {    
+    "tag":"Receta de Paella vegana de quinoa",
+    
+    "patrones":[
+        "Receta de Paella vegana de quinoa",
+        "Recetas",
+        "Arroces y cereales",
+        "Paellas",
+        "Coste medio",
+        "Recomendada para deportistas",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Recomendada para perder peso",
+        "Receta sin gluten",
+        "Ideal acompañar con vino tinto joven",
+        "Estofado"
+      ],
+    
+    "respuestas":["Receta de Paella vegana de quinoa \nIngredientes: \n1 trozo de pimiento rojo\n1 zanahoria\n½ cebolla\n180 gramos de quinoa\n1 tomate\n50 gramos de judías verdes\n80 gramos de espárragos verdes\n2 tazas de caldo de verduras\n1 pizca de sal\n1 pizca de pimienta negra molida\n Procedimiento: \nReunimos todos los ingredientes para preparar la paella de quinoa con verduras.\nPara comenzar, hacemos un sofrito con la cebolleta y el pimiento rojo cortados en cuadraditos pequeños. Dejamos cocinar 4 minutos a fuego medio. Mientras tanto, cortamos las judías verdes en trozos de unos 3 centímetros y las hervimos en agua durante 5 minutos. Pasado este tiempo, escurrimos y reservamos.\nAgregamos la zanahoria pelada y cortada del mismo tamaño que el pimiento, y los espárragos también en trocitos. Salpimentamos y dejamos cocinar otros 5 minutos.\nIncorporamos las judías verdes y la quinoa lavada, y mezclamos bien para que se integren en el sofrito.\nEs el momento de incorporar el caldo de verduras a nuestra paella vegetariana. Ponemos el doble de caldo que de quinoa y dejamos cocer a fuego suave durante 20 minutos.\nTruco: Si ves que la paella se queda sin líquido puedes añadir más caldo de verduras o agua.\nPuedes servir la paella vegana de quinoa directamente en la paellera o en platos individuales, como más te guste. Si eres fan de la quinoa, te recomendamos otras recetas como la ensalada de quinoa vegana o los tacos veganos de quinoa. ¡Buen provecho!\nSi te ha gustado la receta de Paella vegana de quinoa, te sugerimos que entres en nuestra categoría de Recetas de Paellas."
+    ]
+  },
+  {    
+    "tag":"Receta de Quinoa con verduras y pollo",
+    
+    "patrones":[
+        "Receta de Quinoa con verduras y pollo",
+        "Recetas",
+        "Arroces y cereales",
+        "Quinoa",
+        "Coste medio",
+        "Recomendada para deportistas",
+        "Receta sin lactosa",
+        "Receta sin gluten",
+        "Ideal acompañar con zumo natural"
+      ],
+    
+    "respuestas":["Receta de Quinoa con verduras y pollo \nIngredientes: \n2 muslo de pollo sin hueso\n½ taza de quinoa\n2 zanahoria\n80 gramos de judías verdes\n1 pizca de jengibre fresco\n2 cucharadas soperas de salsa de soja\n2 cucharadas de postre de miel\n1 cucharada sopera de vinagre de arroz\n1 pizca de sal\n1 pizca de pimienta negra molida\n1 cucharada postre de sésamo negro\n1 diente de ajo\n Procedimiento: \nVamos a comenzar por hervir las judías verdes en abundante agua hirviendo durante 5-7 minutos. Queremos que queden al dente, no demasiado cocidas. Una vez cocinadas, las escurrimos y reservamos.\nPelamos y cortamos la zanahoria en bastoncitos. Para este plato de quinoa con verduras, vamos a dejar las zanahorias crudas, que quedan muy crujientes.\nSalteamos las judías verdes con un diente de ajo y un poquito de aceite de oliva. Añadimos, sal, pimienta negra molida y un poco de jengibre rallado. Dejamos cocinar durante 2 minutos. Para que tomen el sabor del ajo.\nMarinamos el pollo con salsa de soja, miel, vinagre de arroz, sal, pimiento negra molida y un poco de jengibre rallado. Dejamos que se marine mientras preparamos el resto de verduras.\nMientras cocemos la quinoa en agua, salteamos el pollo en una sartén a fuego vivo hasta que quede hecho por dentro y caramelizado por fuera.\nTruco: El tiempo de cocción de la quinoa depende de las indicaciones del fabricante.\nPara presentar este plato de quinoa con verduras y pollo, servimos en un bol con el fondo de quinoa, las verduras y el pollo por encima y si te apetece, un poco de sésamo para decorar. ¡Que aproveche!\nSi te ha gustado la receta de Quinoa con verduras y pollo, te sugerimos que entres en nuestra categoría de Recetas de Quinoa."
+    ]
+  }, 
+  {    
+    "tag":"Receta de Setas rebozadas",
+    
+    "patrones":[
+        "Receta de Setas rebozadas",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Setas",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Frito"
+      ],
+    
+    "respuestas":["Receta de Setas rebozadas \nIngredientes: \n300 gramos de setas ostra\n150 mililitros de leche de soja\n75 mililitros de yogur de soja natural\n1 chorro de zumo de limón\n1 cucharadita de sal\n150 gramos de harina de trigo\n1 pizca de pimienta negra\n1 cucharadita de pimentón ahumado\n1 cucharadita de ajo en polvo\n½ cucharadita de pimienta cayena\n1 cucharadita de cebolla en polvo\n Procedimiento: \nPara preparar el rebozado vegano mezcla en un bol el yogur, la leche de soja, el zumo de limón y la sal. Deja reposar varios minutos.\nAñade las setas al bol con la mezcla, cúbrelas bien y deja macerar durante 1 hora. De esta forma, la receta de setas rebozadas tendrá mucho más sabor.\nEn otro bol mezcla la harina con la pimienta, el pimentón y el ajo en polvo y la cebolla en polvo.\nSaca las setas del adobo y rebózalas una a una con la mezcla de harina.\nCalienta una sartén con aceite y fríe las setas rebozadas dándoles la vuelta con las pinzas hasta que se doren bien.\nColoca las setas ya fritas sobre papel absorbente para eliminar el exceso de aceite.\nSirve las setas rebozadas veganas con tu salsa favorita, por ejemplo, alioli sin huevo, mayonesa vegana o crema agria vegana como he hecho yo. Visita mi blog Vegspiration y disfruta de todas mis recetas.\nSi te ha gustado la receta de Setas rebozadas, te sugerimos que entres en nuestra categoría de Recetas de Setas."
+    ]
+  },
+  {    
+    "tag":"Receta de Tempeh rebozado",
+    
+    "patrones":[
+        "Receta de Tempeh rebozado",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Otros aperitivos",
+        "Coste medio",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Tempeh rebozado \nIngredientes: \n250 gramos de tempeh\n1 vaso pequeño de yogur de soja\n3 dientes de ajo\n1 cucharadita de jengibre fresco rallado\n1 chorro de agua\n1 cucharadita de cebolla en polvo\n1 cucharada sopera de vinagre de manzana\n½ cucharadita de azúcar moreno\n3 cucharadas soperas de zumo de limón\n1 cucharada sopera de harina\n½ cucharadita de pimentón dulce\n1 cucharadita de sal\n¼ cucharadita de pimienta cayena\n1 cucharadita de tandoori masala (opcional)\n Procedimiento: \nPara preparar la tempura para el tempeh rebozado mezcla en un bol el yogur con el ajo y jengibre picados, el zumo de limón, un chorro de agua, la harina y todas las especias y condimentos: el pimentón, la sal, la pimienta, el azúcar, la cebolla en polvo y el vinagre. Si no encuentras la mezcla de especias tandoori masala puedes omitirla o sustituir por cualquier otro masala.\nPasa la mezcla a la batidora y tritúrala para integrar bien los ingredientes.\nCorta el tempeh en trozos y rebózalos con la tempura de yogur. Con la ayuda de una cuchara cúbrelos con el yogur de tal forma que queden cubiertos por completo.\nPrepara una bandeja de horno recubierta con el papel de horno y coloca los trozos de tempeh rebozados encima. Precalienta el horno a 180 ºC y hornea el tempeh durante media hora. Si te sobra tempura de yogur viértela encima de los trozos de tempeh pasados 15 minutos de horneado, o resérvala para otra receta.\nSirve la receta de tempeh rebozado con una guarnición de verduras horneadas o frescas o arroz basmati. Visita mi blog Vegspiration y descubre todas mis recetas veganas.\nSi te ha gustado la receta de Tempeh rebozado, te sugerimos que entres en nuestra categoría de Recetas de Otros aperitivos."
+    ]
+  },
+  {    
+    "tag":"Receta de Croquetas de verduras veganas",
+    
+    "patrones":[
+        "Receta de Croquetas de verduras veganas",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Croquetas",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Receta sin lactosa",
+        "Frito"
+      ],
+    
+    "respuestas":["Receta de Croquetas de verduras veganas \nIngredientes: \n1 manojo de acelgas\n3 zanahorias\n1 cebolla\n1 cucharadita de jengibre fresco rallado\n½ cucharadita de cúrcuma fresca rallada\n2 pimientos rojos\n1 puñado de piñones\n1 cucharadita de curry en polvo\n½ taza de leche de soja\n4 cucharadas soperas de harina de trigo\n1 cucharadita de sal\n1 pizca de pimienta negra\n2 cucharadas soperas de aceite\n½ taza de pan rallado\n Procedimiento: \nCocina las acelgas en agua salada hirviendo durante 5-7 minutos. Escúrrelas bien y reserva para seguir con la receta de croquetas veganas de verduras.\nTrocea la cebolla, la zanahoria y el pimiento y tritúralos en la picadora o córtalos muy finito.\nCalienta una olla o una sartén con aceite y sofríe la cebolla hasta que empiece a ponerse transparente.\nIncorpora la zanahoria y el pimiento y sofríe un minuto más removiendo de vez en cuando. Añade las acelgas que habíamos reservado.\nCocina la verdura hasta que quede blanda y los ingredientes de las croquetas veganas queden integrados.\nAñade la sal, la pimienta, el curry y la harina. Remueve hasta que la masa quede densa.\nVierte la leche de soja en la masa y añade los piñones.\nMezcla bien la masa de las croquetas de verduras hasta que quede homogénea, densa y manejable. Deja la masa enfriar un poco.\nCoge pequeñas porciones de masa con las manos y forma croquetas ovaladas. Pasa cada croqueta por el pan rallado.\nPuedes freír las croquetas veganas en una sartén con aceite caliente hasta que se doren o congelarlas para cocinar posteriormente.\nEstas croquetas de verduras quedan muy tiernas y cremosas por dentro, ¡fíjate en la imagen! No tienen nada que envidiar a las hechas a base de bechamel.\nPuedes servir la receta de croquetas veganas de verduras acompañadas de arroz blanco o una ensalada de quinoa y verduras. Visita mi blog Vegspiration y prepara una salsa vegana.\nSi te ha gustado la receta de Croquetas de verduras veganas, te sugerimos que entres en nuestra categoría de Recetas de Croquetas."
+    ]
+  },
+  {    
+    "tag":"Receta de Burritos veganos (vegetarianos) con frijoles",
+    
+    "patrones":[
+        "Receta de Burritos veganos (vegetarianos) con frijoles",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Antojitos mexicanos",
+        "Coste medio",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Poco picante"
+      ],
+    
+    "respuestas":["Receta de Burritos veganos (vegetarianos) con frijoles \nIngredientes: \n1 lata de fruta de Jack o jackfruit joven\n1 cucharada sopera de aceite\n1 cucharadita de ajo en polvo\n1 cucharadita de cebolla en polvo\n1 cucharadita de tomillo molido\n1 cucharadita de pimentón dulce\n1 pizca de pimienta cayena\n1 pizca de pimienta negra\n2 cucharadas soperas de zumo de limón\n½ cucharadita de canela molida\n½ cucharadita de nuez moscada molida\n½ cucharada sopera de azúcar moreno\n1½ tazas de agua (360 mililitros)\n1 taza de judías negras cocidas\n2 dientes de ajo\n1 cebolla\n1 cucharada sopera de aceite\n2 cucharadas soperas de zumo de limón\n½ cucharada sopera de azúcar moreno\n¼ taza de zumo de naranja\n1 cucharadita de tomillo molido\n½ cucharadita de jengibre fresco rallado\n1 mango maduro\n1 taza de canónigos\n4 tortillas de trigo\n½ pepino\n½ taza de salsa de cacahuetes (receta en mi perfil)\n½ manojo de cilantro\n Procedimiento: \nEscurre la fruta de jack y lávala en un escurridor bajo el chorro de agua para quitar el sabor de la salmuera de la lata.\nElimina todo el líquido posible apretando con las manos y secando los trozos de fruta con papel de cocina.\nCorta la fruta de jack en tiras de tal forma que parezca carne mechada.\nPuedes hacer también esta otra receta de carne mechada vegana paso a paso con ingredientes diferentes para rellenar los burritos vegetarianos.\nEn un bol mezcla todas las especias: el ajo en polvo, la cebolla en polvo, el pimentón, el tomillo, la pimienta negra y la pimienta cayena, la canela y la nuez moscada.\nCalienta una sartén con aceite y añade la fruta de jack mechada y las especias del jerk jamaicano. Cocina 2-3 minutos removiendo de vez en cuando hasta que las especias empiecen a soltar el aroma.\nIncorpora el zumo de limón, el azúcar y el agua. Cocina el relleno de los burritos de carne vegetal 20-25 minutos hasta que se evapore el agua removiendo ocasionalmente. Cuando la carne mechada esté lista resérvala.\nPara cocinar las judías negras o frijoles calienta una olla con aceite y pocha la cebolla y el ajo picados hasta que la cebolla empiece a ponerse transparente. Incorpora las judías negras cocidas, el zumo de limón y de naranja, el jengibre y el tomillo. Cocina durante 10 minutos removiendo de vez en cuando.\nPara montar los burritos sin carne unta las tortillas con la salsa de cacahuete casera y coloca encima los canónigos, el pepino cortado en rodajas y el mango cortado en dados.\nSi lo prefieres puedes preparar tú mismo la receta de tortillas de harina de trigo caseras.\nColoca encima varias cucharadas de frijoles o judías negras por encima y cerramos la tortilla. Servimos los burritos veganos (vegetarianos) con frijoles con cilantro fresco acompañados con la salsa de cacahuete.\nEn mi blog Vegspiration encontrarás muchas más recetas veganas típicas de muchos otros países del mundo. ¡Échale un vistazo!\nSi te ha gustado la receta de Burritos veganos (vegetarianos) con frijoles, te sugerimos que entres en nuestra categoría de Recetas de Antojitos mexicanos."
+    ]
+  },
+  {    
+    "tag":"Receta de Quiche con base de boniato",
+    
+    "patrones":[
+        "Receta de Quiche con base de boniato",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Quiche",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Recomendada para perder peso",
+        "Receta sin lactosa",
+        "Receta sin gluten",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Quiche con base de boniato \nIngredientes: \n2 batatas naranjas o boniatos\n1 chorro de aceite\n1 cucharadita de pimentón dulce\n1 cebolla\n1 pimiento rojo\n3 cucharadas soperas de maíz\n1 zanahorias\n150 gramos de tofu\n1 taza de espinacas congeladas\n3 cucharadas soperas de crema agria vegana (ver receta en mi perfil de RecetasGratis) o queso crema\n8 tomates cherry\n1 cucharadita de cúrcuma\n1 cucharadita de sal\n1 pizca de pimienta negra\n Procedimiento: \nPela las batatas o boniatos y córtalas en láminas finas con un pelador.\nPrecalienta el horno a 180 grados. Coloca las láminas de batata en una bandeja de horno, rocía un poco de aceite y espolvorea el pimentón. Hornea las batatas hasta que se ablande durante 10 minutos. Vigila el horno para que no se queme.\nPara preparar la base de la quiche sin masa ni harina vas a necesitar un molde de bizcocho con bordes removibles. Quita los bordes y coloca una hoja de papel de horno sobre la base del molde. Coloca los bordes sin quitar el papel. A continuación coloca las láminas de boniato formando una base para la quiche light apretando con las manos para que se peguen. Sube las láminas por los bordes del molde para que el relleno no se salga después, una altura de 2 centímetros es suficiente.\nCorta en dados pequeños toda la verdura, incluyendo los recortes de las batatas para no desperdiciarlos y desmigaja el tofu. Corta los tomates cherry por la mitad.\nCocina las espinacas al microondas durante varios minutos o en agua hirviendo escurriendo a continuación en un colador para quitar todo el líquido.\nCalienta una sartén con aceite y sofríe la verdura de la quiche de boniato durante varios minutos para que se ablande.\nIncorpora las espinacas y cocina durante un minuto.\nAñade el tofu desmigajado y remueve para que se integre bien con los demás ingredientes.\nA continuación añade la crema agria vegana, la cúrcuma, la sal y la pimienta. Puedes encontrar la receta de la crema agria de tofu en mi perfil de RecetasGratis o puedes utilizar cualquier queso crema. Cocina el relleno durante 2-3 minutos más y rellena el molde con la masa ligera para quiche.\nDecora la quiche con base de boniato con los tomates cherry y hornéala durante 15 minutos. Déjala enfriar un poco, córtala en raciones y sirve.\nOtro días también puedes probar esta tarta salada de verduras si quieres o si no, entra en mi blog Vegspiration y descubre todas mis nuevas recetas cada semana.\nSi te ha gustado la receta de Quiche con base de boniato, te sugerimos que entres en nuestra categoría de Recetas de Quiche."
+    ]
+  },
+  {    
+    "tag":"Receta de Setas con jamón",
+    
+    "patrones":[
+        "Receta de Setas con jamón",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Setas",
+        "Coste medio",
+        "Recomendada para perder peso",
+        "Popular en Otoño-Invierno",
+        "Estofado"
+      ],
+    
+    "respuestas":["Receta de Setas con jamón \nIngredientes: \n500 gramos de setas variadas\n2 dientes de ajos\n100 gramos de taquitos de jamón\n50 mililitros de vino blanco\n1 puñado de perejil picado\n3 cucharadas soperas de aceite de oliva\n1 pizca de sal\n Procedimiento: \nPreparamos los ingredientes. Limpiamos y cortamos las setas.\nPonemos una sartén al fuego con 2-3 cucharadas de aceite, picamos los ajos y los añadimos a la sartén.\nTruco: Cuanto menos aceite les eches, menos calorías y por tanto, menos engordarán las setas con jamón.\nCuando empiecen a estar dorados los ajos añadimos las setas cortadas y limpias. Removemos y dejamos cocinar hasta que las setas al ajillo queden doradas.\nCuando estén doradas añadimos el vaso de vino y dejamos reducir unos 5 minutos.\nAñadimos el jamón, removemos todo junto y apagamos.\nEspolvoreamos con el perejil las setas al ajillo con jamón . ¡Y ya estarán listas para comer!\nPuedes acompañar las setas con jamón junto con otros entrantes como esta riquísima tortilla de berenjena o esta deliciosas empanadillas de pisto. Encontrarás muchísimas más recetas sabrosas en mi blog Cocinando con Montse.\nSi te ha gustado la receta de Setas con jamón, te sugerimos que entres en nuestra categoría de Recetas de Setas."
+    ]
+  }, 
+  {    
+    "tag":"Receta de Champiñones rellenos de queso",
+    
+    "patrones":[
+        "Receta de Champiñones rellenos de queso",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Setas",
+        "Coste barato",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Champiñones rellenos de queso \nIngredientes: \n1 paquete de champiñón frescos\n1 paquete de queso crema\n1 puñado de tacos de pavo\nqueso cabrales\n1 puñado de queso rallado\n Procedimiento: \nSe limpian los champiñones bien quitándoles el tronco y lavándolos agua.\nMezclo el queso crema con el pavo y el cabrales al gusto y relleno los champiñones.\nPongo encima de los champiñones rellenos de queso azul un poco de queso rallado.\nMeto los champiñones rellenos al horno precalentado a 170 ºC hasta que estén dorados. ¡Y los champiñones rellenos de queso estarán listos para comer!\nPrueba también esta otra receta de champiñones rellenos de con guacamole en otra ocasión.\nSi te ha gustado la receta de Champiñones rellenos de queso, te sugerimos que entres en nuestra categoría de Recetas de Setas."
+    ]
+  },
+  {    
+    "tag":"Receta de Paella de verduras vegana",
+    
+    "patrones":[
+        "Receta de Paella de verduras vegana",
+        "Recetas",
+        "Arroces y cereales",
+        "Paellas",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Estofado"
+      ],
+    
+    "respuestas":["Receta de Paella de verduras vegana \nIngredientes: \n200 gramos de arroz\n½ taza de judiones o judías blancas cocidas\n200 gramos de tempeh\n1 cebolla\n1 pimiento rojo\n½ taza de guisantes\n½ taza de maíz dulce\n¼ taza de aceitunas verdes\n¼ taza de habas cocidas\n2 dientes de ajo\n1 lata de tomate triturado\n1 zanahoria\n2 cucharadas soperas de aceite\n1 cucharadita de cúrcuma o colorante amarillo\n1 cucharadita de pimentón dulce\nagua o caldo vegetal\n1 pizca de sal\n1 hoja de laurel\n Procedimiento: \nPica la cebolla, el ajo, el pimiento y la zanahoria en dados pequeños.\nCalienta una sartén-paellera con aceite y rehoga el ajo y la cebolla. Añade el pimiento rojo y la zanahoria y sofríe bien. Añade los guisantes, el maíz, los judiones, las aceitunas, cocina varios minutos removiendo de vez en cuando e incorpora el tomate triturado, la sal, el laurel, el pimentón y la cúrcuma. Mezcla muy bien y cocina la paella vegana de verduras varios minutos más.\nVierte dentro de la sartén la misma cantidad de caldo vegetal o agua que tienes preparada de arroz. Lleva el caldo a ebullición y mantén el hervor durante 5 minutos. Incorpora el arroz, tapa la sartén con papel de aluminio y cocina la paella vegetariana de verduras durante unos 10 minutos a fuego alto hasta que se evapore todo el agua.\nPor otro lado corta el tempeh en láminas y dóralo a la plancha por ambos lados. Cólocalo encima del arroz y sirve la paella de verduras vegana con varias rodajas de limón.\nEn mi blog de inspiración vegana Vegspiration encontrarás muchas más ideas para cocinar arroces tan deliciosos como este.\nSi te ha gustado la receta de Paella de verduras vegana, te sugerimos que entres en nuestra categoría de Recetas de Paellas."
+    ]
+  },
+  {    
+    "tag":"Receta de Empanadillas de pisto",
+    
+    "patrones":[
+        "Receta de Empanadillas de pisto",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Empanadas",
+        "Coste barato",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Empanadillas de pisto \nIngredientes: \n1 tarro de pisto\n1 paquete de masa para empanadillas precocinada en obleas\n1 huevo\n1 puñado de semillas de sésamo\n Procedimiento: \nLo primero será preparar los ingredientes. Si no tenéis pisto, se pueden hacer estas empanadillas caseras con otras verduras o comprarlo ya preparado. También puedes hacerlo tú mismo siguiendo esta receta de pisto de verduras.\nBatimos el huevo en un bol.\nPonemos la masa de empanadillas sobre la encimera y vamos poniendo una cucharada de pisto en el centro de cada oblea sin llegar a los bordes. Pintaremos de huevo batido los bordes con ayuda de una brocha.\nPondremos encima otra oblea de empanadilla y sellaremos los bordes de las empanadillas rellenas de pisto con ayuda de un tenedor.\nLas vamos poniendo en una bandeja forrada con papel vegetal, las pintamos con huevo batido y repartimos unas semillas por encima de cada una. Introducimos las empanadillas de pisto al horno a 180 ºC hasta que queden doradas.\nUna vez estén doradas sacamos las empanadillas de pisto y estarán listas para comer. ¡Buenísimas!\nEntra en mi blog Cocinando con Montse si quieres conocer muchas más recetas fáciles y tradicionales que hago en casa y, otro día prueba estas otras recetas recomendadas para rellenar estas empanadillas por ejemplo:\nSi te ha gustado la receta de Empanadillas de pisto, te sugerimos que entres en nuestra categoría de Recetas de Empanadas."
+    ]
+  },
+  {    
+    "tag":"Receta de Bolitas energéticas de avena y frutos secos",
+    
+    "patrones":[
+        "Receta de Bolitas energéticas de avena y frutos secos",
+        "Recetas",
+        "Arroces y cereales",
+        "Avena",
+        "Coste medio",
+        "Recomendada para deportistas",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos"
+      ],
+    
+    "respuestas":["Receta de Bolitas energéticas de avena y frutos secos \nIngredientes: \n1/4 taza de nueces\n1/3 taza de avena en copos\n1/3 coco en copos\n1 chorro de sirope de agave\n1/4 taza de pasas\n2 cucharadas de crema de algarroba (o de cacao)\n1/4 taza de leche de avena\n1 cucharadita de pipas de girasol\n2 cucharadas de coco rallado\n Procedimiento: \nPon a remojar las pasas en agua tibia durante 15 minutos. Escúrrelas bien.\nCombina en el vaso de la batidora las nueces, la avena, las pasas, pipas de girasol y el coco en copos. Tritura todo un poco, nada más para que quede picado ligeramente. Si no te gustan mucho los tropezones en las bolitas de avena y frutos secos, tritura un poco más.\nEn un cazo pon a calentar la mezcla de frutos secos picados, la crema de algarroba, el sirope de agave y la leche vegetal. Remueve la masa continuamente, sin parar, mientras se calienta para que no se pegue hasta que se forme una masa densa. Retira el cazo del fuego y déjalo enfriar.\nCuando la mezcla se haya enfriado, coge porciones de masa con las manos y forma bolitas.\nPasa las bolitas de avena por el coco rallado y déjalas enfriar en la nevera antes de servir.\nComo puedes ver en la imagen, estas bolitas energéticas de avena y frutos secos quedan muy jugosas y su sabor es delicioso. Anímate a prepararlas y pásate por mi blog Vegspiration para descubrir muchas recetas más.\nSi te ha gustado la receta de Bolitas energéticas de avena y frutos secos, te sugerimos que entres en nuestra categoría de Recetas de Avena."
+    ]
+  },
+  {    
+    "tag":"Receta de Risotto de setas y queso parmesano",
+    
+    "patrones":[
+        "Receta de Risotto de setas y queso parmesano",
+        "Recetas",
+        "Arroces y cereales",
+        "Risottos",
+        "Coste barato",
+        "Recomendada para vegetarianos",
+        "Popular en Otoño-Invierno",
+        "Hervido",
+        "Recetas italianas"
+      ],
+    
+    "respuestas":["Receta de Risotto de setas y queso parmesano \nIngredientes: \n150 gramos de arroz carnaroli\n75 gramos de setas de álamo\n1 litro de caldo de verduras\n1 pizca de ajo molido\n50 gramos de queso parmesano rallado\n100 mililitros de vino blanco\n1 pizca de sal\n1 chorro de aceite de oliva virgen extra\n Procedimiento: \nLimpiamos las setas, las lavamos bien, las troceamos ligeramente si hay alguna muy grande y las dejamos escurrir para empezar a preparar el risotto de ceps y parmesano.\nSalteamos las setas en una cazuela amplia con unas gotitas de aceite caliente. Las vamos removiendo constantemente y al cabo de dos o tres minutos las retiramos y reservamos. Habrán soltado jugo que dejamos en la cazuela.\nPonemos el arroz, lo repartimos por toda la base y colocamos la cazuela al fuego moviendo continuamente el arroz con el jugo de las setas durante uno o dos minutos.\nTruco: También puedes usar arroz de la variedad arborio\nAñadimos parte del caldo de verduras, hasta que quede bien cubierto y vamos cocinando. Removemos de vez en cuando y añadimos más caldo (en pequeñas cantidades) a medida que se vaya quedando seco para seguir con la preparación del risotto de setas y queso parmesano.\nTruco: Si no dispones de caldo casero puedes utilizar agua y una pastilla de caldo de verduras.\nVamos comprobando el punto de cocción y cuando esté casi hecho añadimos un chorrito de vino blanco, las setas que teníamos reservadas, un pellizco de ajo en polvo y removemos bien.\nAñadimos el queso parmesano y mezclamos para que se derrita. Probamos y si es necesario rectificamos de sal.\nServimos el risotto de setas y queso parmesano en cuanto esté listo. Para acompañar, una ensalada de tomate y mozzarella es perfecta. Y si quieres descubrir más recetas sencillas y llenas de sabor como esta, pásate por mi blog Los dulces secretos de Cuca. ¡Buen provecho!\nSi te ha gustado la receta de Risotto de setas y queso parmesano, te sugerimos que entres en nuestra categoría de Recetas de Risottos. También puedes visitar una selección de las mejores recetas italianas.  "
+    ]
+  },
+  {    
+    "tag":"Receta de Porridge inglés",
+    
+    "patrones":[
+        "Receta de Porridge inglés",
+        "Recetas",
+        "Arroces y cereales",
+        "Avena",
+        "Coste barato",
+        "Recomendada para deportistas",
+        "Recomendada para vegetarianos",
+        "Ideal acompañar con zumo natural",
+        "Hervido",
+        "Receta tradicional de Reino Unido"
+      ],
+    
+    "respuestas":["Receta de Porridge inglés \nIngredientes: \n½ taza de copos de avena\n1 taza de leche (240 mililitros)\n1 pizca de sal\n1 plátano\n1 cucharada sopera de arándanos\n1 cucharada sopera de frambuesas\n1 cucharada sopera de sirope de arce, miel, ágave u otro endulzante líquido\n Procedimiento: \nEn el porridge la receta tradicional indica que es importante tostar la avena ligeramente antes de comenzar con la preparación para que quede más sabrosa. Por eso, nosotros hemos tostado los copos de avena en una sartén a fuego medio durante 1 minuto, moviendo bien con una cuchara.\nCalentamos la avena y la leche en una olla a fuego medio y comenzamos a mover. Esta receta se puede preparar con leche, leche vegetal o agua, depende de como quieras las gachas de avena.\nA continuación, ponemos una pizca de sal y seguimos moviendo. La sal hace que el porridge de avena potencie su sabor.\nDejamos cocinar el porridge inglés hasta que quede con la consistencia de unas gachas suaves. Si te gusta más espeso puedes cocinarlo un poco más y si lo prefieres más ligero, puedes agregar más líquido. Lo importante es que quede cremoso.\nAcompañamos este porridge de avena fitness con unas rodajas de plátano y unos cuantos frutos silvestres como las frambuesas y los arándanos. También vamos a aderezar con sirope de arce o ágave, o con miel.\nEste porridge inglés es perfecto para el desayuno, pero también hay personas que toman porridge para cenar, lo dejamos a tu gusto.\nSi buscas otras recetas de desayuno fitness, puedes probar las tortitas de avena y manzana o los crepes de avena fitness.\nSi te ha gustado la receta de Porridge inglés, te sugerimos que entres en nuestra categoría de Recetas de Avena.  "
+    ]
+  },
+  {    
+    "tag":"Receta de Arroz con bacalao y verduras",
+    
+    "patrones":[
+        "Receta de Arroz con bacalao y verduras",
+        "Recetas",
+        "Arroces y cereales",
+        "Arroces con pescado y mariscos",
+        "Coste medio",
+        "Estofado"
+      ],
+    
+    "respuestas":["Receta de Arroz con bacalao y verduras \nIngredientes: \n450 g de bacalao\n500 g de arroz\n1 pimiento verde\n1 cebolla\n2 setas de buen tamaño\n50 g de aceite\n3 dientes de ajo\nalbahaca\nPimentón rojo dulce\n40 ml de vino blanco\nColorante alimentario o azafrán\n1 litro de agua\n Procedimiento: \nEcha los 50 g de aceite en la cazuela y sofríe la cebolla, el pimiento y el ajo.\nAñade ahora las setas y dóralas un poco.\nTruco: Puedes agregarles muchos otros tipos de verduras u hongos a tu arroz con bacalao si quieres.\nAgrega ahora un poco de pimentón rojo dulce.\nAñade a la cazuela el bacalao y pásalo un poco, luego espolvorea un poco de albahaca y echa 40 ml de vino.\nAñade el arroz, el colorante alimentario o azafrán (yo le pongo marca Aromat), sazona a tu gusto y pon un litro de agua.\nCocina el arroz con bacalao fácil unos 5 minutos a fuego vivo y 15 minutos a fuego lento.\nSirve el arroz con bacalao y verduras recién hecho. Combínalo con unas berenjenas a la plancha de entrante y una mousse de sandía de postre por ejemplo.\nSi te ha gustado la receta de Arroz con bacalao y verduras, te sugerimos que entres en nuestra categoría de Recetas de Arroces con pescado y mariscos."
+    ]
+  },
+  {    
+    "tag":"Receta de Hamburguesas vegetarianas de quinoa, mijo y vegetales",
+    
+    "patrones":[
+        "Receta de Hamburguesas vegetarianas de quinoa, mijo y vegetales",
+        "Recetas",
+        "Arroces y cereales",
+        "Quinoa",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Receta sin gluten",
+        "Frito"
+      ],
+    
+    "respuestas":["Receta de Hamburguesas vegetarianas de quinoa, mijo y vegetales \nIngredientes: \n100 gramos de mijo\n50 gramos de quinoa\n1 cebolla\n1 zanahoria\n3 cucharadas soperas de pan rallado\n1 pizca de sal\n1 pizca de pimienta\n2 cucharadas soperas de aceite\n½ cucharadita de cúrcuma\n½ cucharadita de jengibre en polvo\n½ taza de harina (70 gramos)\n Procedimiento: \nLava bien los dos cereales con ayuda de un colador debajo del grifo del agua. Ponlos en un cazo y cubre con el doble cantidad de agua, sal y un chorrito de aceite. Lleva el agua a ebullición y cuando hierva pon el fuego bajo, tapa el cazo y cocina el mijo y la quinoa durante 12-15 minutos hasta que se evapore toda el agua. Luego déjalos reposar 5 minutos más con el fuego apagado.\nPica la zanahoria y la cebolla en trocitos pequeños y sofríelas con un poco de aceite en una sartén.\nMezcla el mijo y la quinoa cocidos en un bol con el sofrito, la sal, la pimienta, la cúrcuma, el jengibre y el pan rallado. Amasa hasta obtener una mezcla homogénea para las hamburguesas de quinoa y mijo.\nCalienta una sartén o plancha con un poco de aceite. Ves cogiendo pequeñas porciones de masa con las manos y forma las hamburguesas veganas de quinoa, mijo y vegetales. Rebózalas por la harina y fríelas hasta que se doren por ambos lados .\nSirve las hamburguesas de mijo y quinoa en pan de hamburguesa con lechuga, col, tomate, queso, etc, y visita mi blog Vegspiration para conocer muchas otras recetas de hamburguesas vegetales.\nSi te ha gustado la receta de Hamburguesas vegetarianas de quinoa, mijo y vegetales, te sugerimos que entres en nuestra categoría de Recetas de Quinoa."
+    ]
+  },
+  {    
+    "tag":"Receta de Rollitos de tortillas de trigo",
+    
+    "patrones":[
+        "Receta de Rollitos de tortillas de trigo",
+        "Recetas",
+        "Arroces y cereales",
+        "Sushi",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Sin cocción"
+      ],
+    
+    "respuestas":["Receta de Rollitos de tortillas de trigo \nIngredientes: \n4 tortillas de trigo\n4 hojas de alga nori\n1 taza de arroz cocido (175 gramos)\n1 aguacate\n1 lata de pimientos asados\n4 cucharadas soperas de guisantes\n1 cucharadita de semillas de sésamo\n2 cucharadas soperas de mostaza dulce\n Procedimiento: \nEncima de un trozo de film transparente coloca la hoja de alga nori. Con un pincel de cocina pinta el alga con agua y coloca encima una tortilla de harina de trigo. Aprieta con las manos para que se peguen entre sí.\nUnta encima de la tortilla un poco de mostaza dulce (o si prefieres mayonesa u otra salsa). Después coloca una capa de arroz y tiras de pimientos rojos asados, aguacate cortado en tiras y guisantes.\nEnrolla la tortilla de trigo rellena de verduras con la ayuda de film transparente haciendo un rollito. Quita el film y corta el rollo en rodajas como si fuera sushi con tortilla de trigo.\nPon un poco de semillas de sésamo por encima y sirve los rollitos con tortitas de trigo rellenos a tu gusto.\nEn mi blog Vegspiration encontrarás muchas opciones de más de aperitivos y entrantes veganos.\nSi te ha gustado la receta de Rollitos de tortillas de trigo, te sugerimos que entres en nuestra categoría de Recetas de Sushi."
+    ]
+  },
+  {    
+    "tag":"Receta de Risotto de gambas y parmesano",
+    
+    "patrones":[
+        "Receta de Risotto de gambas y parmesano",
+        "Recetas",
+        "Arroces y cereales",
+        "Risottos",
+        "Coste barato",
+        "Hervido"
+      ],
+    
+    "respuestas":["Receta de Risotto de gambas y parmesano \nIngredientes: \n200 gramos de arroz carnaroli\n200 gramos de gamba blanca\n1 litro de caldo de pescado\n100 gramos de queso parmesano\n1 cucharadita de ajo molido\n1 pizca de sal\n Procedimiento: \nComenzamos pelando las gambas y reservándolas. Las cabezas y cáscaras las ponemos en una cazuela junto con algo más de un libro de agua y llevamos al fuego hasta que rompa a hervir. Dejamos cocer unos cinco minutos, retiramos del fuego y colamos. Así tendremos listo un caldo casero de marisco que nos irá perfectamente para esta receta de risotto de gambas y parmesano.\nTruco: También puedes usar cualquier otro caldo de pescado que tengas hecho en casa.\nEn una cazuela amplia ponemos unas gotitas de aceite y cuando esté caliente salteamos las gambas peladas. Las cocinamos durante un par de minutos, las sacamos y reservamos.\nEn la misma cazuela añadimos el arroz y lo ponemos al fuego. Removemos durante un par de minutos y agregamos medio litro del caldo que hemos hecho. Dejamos cocinar y cada vez que veamos que se queda sin caldo probamos el arroz y vamos añadiendo caldo poco a poco hasta que esté casi hecho.\nCuando el arroz esté un poquito duro en el centro, añadimos las gambas salteadas, un poco de ajo molido y el queso. Removemos bien, dejamos cocinar el risotto de gambas y parmesano hasta que el arroz esté hecho y tenga un punto meloso. Si es necesario rectificamos de sal.\nCuando el risotto de gambas esté listo, servimos de inmediato. Podemos acompañar esta receta con una buena ensalada de tomate o una ensalada de lechuga y atún. Y si te ha gustado, te animo a que visites mi blog Los dulces secretos de Cuca si buscas más recetas con las que sorprender. ¡Buen provecho!\nSi te ha gustado la receta de Risotto de gambas y parmesano, te sugerimos que entres en nuestra categoría de Recetas de Risottos."
+    ]
+  },
+  {    
+    "tag":"Receta de Ensalada de quinoa vegana",
+    
+    "patrones":[
+        "Receta de Ensalada de quinoa vegana",
+        "Recetas",
+        "Arroces y cereales",
+        "Quinoa",
+        "Coste medio",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Recomendada para perder peso",
+        "Receta sin gluten"
+      ],
+    
+    "respuestas":["Receta de Ensalada de quinoa vegana \nIngredientes: \n½ taza de quinoa\n1 zanahoria pequeña rallada\n½ calabacín cortado en rodajas\n½ cebolla picada\n3 dientes de ajo machacados\n½ taza de hongos picados\n2 cucharadas soperas de aceite de oliva\n1 pizca de pimienta negra\n1 pizca de sal\nSemillas de girasol\nSemillas de amapola\nOtras semillas (opcional)\n1 taza de agua (240 mililitros)\n Procedimiento: \nCocinar la quinoa para empezar. Lávala muy bien con agua tibia y colócala en una cacerola.\nAñade 1 taza de agua y una pizca de sal y deja que la quinoa se cueza durante 15 minutos, o hasta que los granos estén suaves. Luego escúrrela y reserva.\nTruco: ¿Cómo cocinar quinoa? De la misma forma que el arroz pero en este caso, la proporción es de 1 taza de quinoa por 2 de agua.\nMientras tanto, coloca en una sartén el aceite de oliva y saltea la cebolla y el ajo a fuego medio-bajo. Una vez la cebolla esté suave, añade la zanahoria y el calabacín y mezcla todo bien.\nUna vez que la calabaza esté suave, añade los champiñones y cocina otros 2-3 minutos removiendo de vez en cuando. Sazona con sal y pimienta al gusto, y finalmente agrega la quinoa cocida y mezcla toda la ensalada vegana original.\nTruco: Si queda un poco seca puedes añadir un poco más de aceite de oliva.\nSirve la ensalada de quinoa y verduras espolvoreando las semillas varias por encima. Ten en cuenta que puedes comer esta ensalada de quinoa vegana tanto caliente, como tibia o fría, así que da igual si la preparas con antelación o al momento.\nY si estás buscando más recetas con quinoa puedes probar de preparar esta ensalada de quinoa y aguacate o esta ensalada de quinoa y atún. ¡Buen provecho!\nSi te ha gustado la receta de Ensalada de quinoa vegana, te sugerimos que entres en nuestra categoría de Recetas de Quinoa."
+    ]
+  },
+  {    
+    "tag":"Receta de Aporreadillo rojo",
+    
+    "patrones":[
+        "Receta de Aporreadillo rojo",
+        "Recetas",
+        "Guisos y Potajes",
+        "Guiso",
+        "Coste medio",
+        "Poco picante",
+        "Ideal acompañar con zumo natural",
+        "Frito",
+        "Recetas mexicanas"
+      ],
+    
+    "respuestas":["Receta de Aporreadillo rojo \nIngredientes: \n500 gramos de Cesina\n500 gramos de Jitomate\n1 diente de Ajo pelado\n4 unidades de Chiles serranos\n7 piezas de Huevo\n125 mililitros de Aceite\n100 gramos de cebolla\n1 cucharadita de Cominos\n Procedimiento: \nPreparamos todos los ingredientes para elaborar el aporreadillo en rojo. Hervimos los jitomates con ajo y cebolla y reservamos.\nFreímos la carne con poco aceite hasta que se dore. Retiramos la carne de la sartén. La golpeamos con una piedra, (a esto obedece nombre de aporreadillo, aporrear) para facilitar desmenuzarla.\nDesmenuzamos la carne, la lavamos y escurrimos. Enseguida procedemos a freírla.\nRebanamos la cebolla, la agregamos a la carne. En otro recipiente batimos los huevos y se los agregamos a la carne que se está friendo.\nVolteamos la torta de huevo. Dejamos que el huevo esté bien cocido antes de voltearlo. En la licuadora molemos el jitomate, ajo cebolla y los chiles y el agua donde se hirvieron. Lo vertemos a la carne, y lo dejamos cocinar hasta que hierva, agregamos el comino molido.\nDejamos que hierva de 15 a 20 minutos y rectificamos sabor con sal. El aporreadillo rojo debe quedar caldoso. Servimos acompañado de frijoles puercos y arroz blanco.\nSi te ha gustado la receta de Aporreadillo rojo, te sugerimos que entres en nuestra categoría de Recetas de Guiso. También puedes visitar una selección de las mejores recetas mexicanas."
+    ]
+  },
+  {    
+    "tag":"Receta de Guiso de frijoles negros con carne",
+    
+    "patrones":[
+        "Receta de Guiso de frijoles negros con carne",
+        "Recetas",
+        "Guisos y Potajes",
+        "Guiso",
+        "Coste medio",
+        "Estofado",
+        "Receta tradicional de Brasil"
+      ],
+    
+    "respuestas":["Receta de Guiso de frijoles negros con carne \nIngredientes: \n300 gramos de frijoles negros cocinados con su respectivo caldo\n1 unidad de cebolla blanca\n1 unidad de tomates rojos\n1 litro de Caldo de res\n1 pizca de Perejil\n1 cucharadita de Aceite de oliva\n1 pizca de pasta de ajo\n250 gramos de carne molida\n1 pizca de Sal\n1 pizca de Pimienta negra\n Procedimiento: \nEl primer paso para realizar la receta de frijoles negros es prealistar los ingredientes.\nLleva una sartén a fuego medio, adiciona la cebolla blanca y el tomate en cuadros como se observa en la fotografía.\nAgrega la carne molida de res y mézclala con el sofrito base. Añade sal, pimienta y pasta de ajo al gusto.\nComo ingredientes adicionales puedes añadir un poco de laurel seco y paprika, de esta manera nuestra receta de frijoles negros va a tener más sabor.\nAñade el caldo de carne y los frijoles y mezcla con el sofrito que teníamos en la sartén. Lo ideal es que esto se realice en una olla honda para que se concentren los sabores de la preparación. Deja conservar durante 10-15 minutos a fuego lento.\nSirve el guiso de frijoles negros espolvoreando un poco de perejil fresco encima como se observa en la fotografía. Puedes acompañar con arroz blanco esta preparación. Si deseas más recetas de frijoles y tienes algún comentario o inquietud, escríbenos. ¡Disfruta!\nSi te ha gustado la receta de Guiso de frijoles negros con carne, te sugerimos que entres en nuestra categoría de Recetas de Guiso."
+    ]
+  },
+  {    
+    "tag":"Receta de Guiso de frijoles con carne",
+    
+    "patrones":[
+        "Receta de Guiso de frijoles con carne",
+        "Recetas",
+        "Guisos y Potajes",
+        "Guiso",
+        "Coste medio",
+        "Estofado"
+      ],
+    
+    "respuestas":["Receta de Guiso de frijoles con carne \nIngredientes: \n400 gramos de frijoles rojos remojados des de la noche anterior\n2 unidades de cebolla blanca\n1 unidad de zanahoria\n10 gramos de Perejil fresco\n2 unidades de Pimiento o pimentón rojo\n5 gramos de Laurel\n5 gramos de Tomillo\n300 gramos de carne molida\n1 litro de Caldo de res\n1 cucharadita de pasta de ajo\n1 pizca de Pimienta negra\n Procedimiento: \nEl primer paso para realizar el guiso de frijoles es prealistar los ingredientes de la receta.\nRetira el agua donde remojaste los frijoles rojos y añádelos a una olla a presión o express con sal, pimienta un poco de laurel y tomillo seco. Cocina los frijoles durante 15 minutos aproximadamente.\nPica la cebolla blanca para poder realizar el sofrito base de la receta.\nPica el pimiento o pimentón rojo.\nPica el tomate, es importante que retires las pepas y las deseches.\nLleva una sartén a fuego medio y añade un poco de aceite de girasol. Una vez caliente adiciona las verduras para realizar el sofrito base de la receta.\nAñade un poco de pasta de ajo y, si deseas, laurel y tomillo al gusto.\nA un lado de la sartén, adiciona la carne molida y mezcla muy bien con el sofrito anterior.\nCubre la carne con un poco de caldo de carne que tenemos reservado y cocina a fuego lento.\nRetira el aire que se encuentra dentro de la olla a presión y agrega la zanahoria en trozos y el caldo de carne restante, vuelve a tapar la olla express y cocina durante 20-30 minutos más, o hasta que los frijoles estén blandos.\nUna vez que los frijoles estén en el punto de cocción deseado, mezcla con el sofrito base y la carne que añadimos a este, remueve muy bien hasta que se integren todos los ingredientes.\nEl caldo sobrante donde cocinamos los frijoles debemos licuarlo con la zanahoria y añadirlo a la olla donde tenemos el guiso.\nSirve el guiso de frijoles con carne espolvoreando cilantro fresco (opcional) y perejil encima, es ideal para acompañar con arroz blanco. Si deseas más recetas de frijoles y tienes algún comentario o inquietud, escríbenos. ¡Disfruta!\nSi te ha gustado la receta de Guiso de frijoles con carne, te sugerimos que entres en nuestra categoría de Recetas de Guiso."
+    ]
+  },
+  {    
+    "tag":"Receta de Arroz con quinoa y verduras",
+    
+    "patrones":[
+        "Receta de Arroz con quinoa y verduras",
+        "Recetas",
+        "Arroces y cereales",
+        "Arroces con verduras y legumbres",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Receta sin gluten",
+        "Salteado"
+      ],
+    
+    "respuestas":["Receta de Arroz con quinoa y verduras \nIngredientes: \n1 taza de mezcla de 3 arroces (blanco, rojo y salvaje)\n½ taza de quinoa roja\n1 cebolla\n1 zanahoria\n¼ manojo de acelgas\n1 trozo de col lombarda (pequeño)\n1 trozo de col blanca (pequeño)\n¼ pimiento rojo\n1 pizca de sal\n1 pizca de pimienta\n2 cucharadas soperas de aceite\n1 trozo de raíz de jengibre (pequeño)\n1 trozo de raíz de cúrcuma (pequeño)\n Procedimiento: \nLava bien la quinoa en un colador con agua fría para eliminar la saponina, una toxina que contiene. Pon la quinoa en un cazo y cúbrela con doble cantidad de agua. Llévala a ebullición y cocina 12 minutos hasta que los granos queden blandos.\nCocina el arroz en agua hirviendo hasta que quede blando.\nPica la cebolla, el pimiento, el jengibre y la cúrcuma en dados pequeños, ralla la zanahoria y corta las acelgas y la col en tiras finas (yo lo hice en un robot de cocina).\nCalienta una sartén con aceite y sofrie la cebolla con la cúrcuma, el jengibre y el pimiento. Cuando el sofrito esté listo añade la col, las acelgas y la zanahoria y cocina hasta que la verdura quede blanda removiendo de vez en cuando.\nA continuación, incorpora a la sartén la quinoa y el arroz y saltea 2 minutos más para que se integren los ingredientes.\nSirve el salteado de arroz con quinoa y verduras como plato principal o como guarnición para los platos de verdura o carne.\nNo dejes de visitar mi blog Vegspiration donde encontrarás muchas más recetas con quinoa o arroz con verduras y también te recomiendo que no te pierdas estas otras:\nSi te ha gustado la receta de Arroz con quinoa y verduras, te sugerimos que entres en nuestra categoría de Recetas de Arroces con verduras y legumbres."
+    ]
+  },
+  {    
+    "tag":"Receta de Cous cous vegetariano",
+    
+    "patrones":[
+        "Receta de Cous cous vegetariano",
+        "Recetas",
+        "Arroces y cereales",
+        "Cuscús",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Receta tradicional de Marruecos"
+      ],
+    
+    "respuestas":["Receta de Cous cous vegetariano \nIngredientes: \n1 taza de couscous\n1 lámina de alga nori\n3 dátiles\n5 nueces\n½ pimiento rojo\n½ pimiento verde\n1 zanahoria\n1 rama de apio\n1 cucharada sopera de aceite\n1 pizca de sal\n1 chorro de zumo de limón\n Procedimiento: \nCalienta una sartén sin aceite y tuesta la hoja de alga nori. Cuando cambie de color y esté bien tostada tritúrala en la batidora o rómpela con las manos en trocitos pequeños.\nPica en trozos pequeños la zanahoria y el pimiento, trocea las nueces, los dátiles y el apio. Calienta una sartén con un poco de aceite y saltea la zanahoria, el apio y el pimiento hasta que la verdura quede blanda.\nPon a hervir 2 tazas de agua en un cazo. Lleva el agua a ebullición, añade el cous cous, retira el cazo del fuego y tápalo y deja reposar 5 minutos hasta absorba todo el agua.\nEn un bol mezcla el couscous con verduras y dátiles, el alga frita, las nueces y las sal.\nSi prefieres servir el cous cous vegetal frío, aderézalo con zumo de limón y sírvelo como una ensalada de cous cous o un plato de entrante. También puedes saltearlo en la sartén o calentar en el microondas y servir el cuscús vegetariano como guarnición de un plato caliente.\nPara ver muchas más ideas de recetas con cous cous veganas no te pierdas las de mi blog Vegspiration.\nSi te ha gustado la receta de Cous cous vegetariano, te sugerimos que entres en nuestra categoría de Recetas de Cuscús."
+    ]
+  },
+  {    
+    "tag":"Receta de Guiso de ternera con verduras",
+    
+    "patrones":[
+        "Receta de Guiso de ternera con verduras",
+        "Recetas",
+        "Guisos y Potajes",
+        "Guiso",
+        "Coste medio",
+        "Receta sin lactosa",
+        "Estofado"
+      ],
+    
+    "respuestas":["Receta de Guiso de ternera con verduras \nIngredientes: \n250 gramos de setas o champiñones\n1 pizca de pasta de ajo\n1 unidad de zanahoria\n2 cucharadas soperas de pasta de tomate\n1 pizca de Sal\n1 pizca de Pimienta\n1 copa de Vino tinto\n150 gramos de Judias o habichuelas\n1 pizca de Perejil\n1 pizca de Tomillo\n1 unidad de Pimiento o pimentón\n1 unidad de cebolla blanca\n500 gramos de Pulpa de ternera\n1 taza de Salsa pomodoro\n Procedimiento: \nEl primer paso para realizar nuestra receta es prealistar los ingredientes. Recuerda que en cuanto a las verduras puedes eliminar o añadir los ingredientes que desees.\nCorta y pela las patatas en cuadros medianos, llévalas a una olla honda con suficiente agua hasta cubrirlas. Cocínelas hasta que estén blandas, retira del fuego y resérvalas.\nAparte, vamos a preparar el guiso base. Para ello, llevamos una sartén grande a fuego medio con un poco de aceite de girasol, entonces añade la zanahoria, el pimiento y la cebolla en plumas.\nPasados unos minutos, añade las judías cortadas en rodajas no muy gruesas para que su cocción sea más rápida.\nPor último añade los champiñones fileteados y sofríe durante algunos minutos más.Vigila e tiempo de cocción de las verduras que quieras añadir.\nAhora le toca el turno a la carne. Adiciona la pulpa de ternera en cuadros medianos y deja sofreír bien la carne para que absorba todo el sabor de los vegetales.\nAgrega las patatas que teníamos reservadas.\nAdiciona el tomillo seco, el vino tinto y la salsa pomodoro con la pasta de tomate y una pizca de pasta de ajo. Baja el fuego al mínimo y deja conservar a esta temperatura para que se concentren los sabores. Deja cocinar durante unos 20 a 30 minutos aproximadamente, vas a notar que la pulpa de ternera queda muy tierna y blanda.\nAntes de servir añade perejil y tomillo seco encima.\nSirve este delicioso guiso de ternera y verduras acompañando con arroz blanco o cualquier otra guarnición con la que puedas aprovechar todo el sabor y la salsa del guiso. Si deseas más recetas con carne y tienes algún comentario o inquietud, escríbenos. ¡Disfruta!\nSi te ha gustado la receta de Guiso de ternera con verduras, te sugerimos que entres en nuestra categoría de Recetas de Guiso."
+    ]
+  },
+  {    
+    "tag":"Receta de Potaje de garbanzos con espinacas y chorizo",
+    
+    "patrones":[
+        "Receta de Potaje de garbanzos con espinacas y chorizo",
+        "Recetas",
+        "Guisos y Potajes",
+        "Potajes",
+        "Coste medio",
+        "Popular en Otoño-Invierno",
+        "Hervido"
+      ],
+    
+    "respuestas":["Receta de Potaje de garbanzos con espinacas y chorizo \nIngredientes: \n1 unidad de cebolla\n1 diente de Ajo\n2 unidades de tomates\n1 chorro de Aceite de oliva\n1 cucharada sopera de Pimentón (Paprika)\n1 hoja de Laurel\n1 kilogramo de garbanzos\n1 unidad de Papa\nAgua fría\n1 pizca de Sal\n1 pizca de Pimienta\n50 gramos de Tocino ahumado\n2 manojos de espinacas\n Procedimiento: \nEn primer lugar, el día anterior ponemos los garbanzos en agua templada con una cucharadita de bicarbonato o un puñado de sal y los dejamos en remojo durante toda la noche (normalmente 12 horas).\nPicamos 1 cebolla mediana y un diente de ajo en trozos muy pequeños para que se vayan deshaciendo durante la cocción. Pelamos y troceamos 2 tomates. En una cazuela echamos un chorrito de aceite de oliva, cebollas y los dientes de ajo. Sofreímos todo durante 10 minutos para que se integren bien los sabores.\nAgregamos el tomate y una hoja de laurel para aromatizar. Sofreímos durante 2-3 minutos. Añadimos una cucharada generosa de pimentón, removemos rápidamente e incorporamos los garbanzos ya escurridos. Removemos otra vez para que se junte todo bien y dejamos cocinar durante 3 minutos más.\nEchamos una papa cortada en gajos o como se apetezca. Cubrimos con agua fría, para que hierva lentamente, hasta que quede la cazuela casi llena. Recuerda que todavía quedan ingredientes por añadir al potaje de garbanzos, de ahí la importancia de añadir agua fría. Cuando empiece a hervir, bajamos el fuego para que vaya más lento y no rompa las legumbres.\nCuando el potaje lleve 1/2 hora cociendo le añadimos sal y pimienta al gusto. Incorporamos los chorizos cortados en rodajas y el tocino en dados. Dejamos cocinar lentamente a temperatura media durante 20 minutos aproximadamente, removiendo la preparación de vez en cuando.\nPasado el tiempo, retiramos los chorizos y el tocino para que el potaje no tenga tanta grasa. Los reservamos para la hora de servir.\nEn otra cazuela aparte, blanqueamos las espinacas para quitarles el amargor. Para blanquearlas tendremos que verter en la cazuela agua hirviendo con sal, introducir y sacar las espinacas. Luego, en una tabla troceamos con un cuchillo grande las espinacas blanqueadas y, cuando falten 10-15 minutos para finalizar la cocción del potaje, las añadimos. Debemos cocinar la preparación a fuego lento y probando de vez en cuando por si se cocina antes de tiempo.\nSirve el potaje de garbanzos y espinacas en platos hondos y coloca el chorizo y el tocino encima. Puedes acompañarlo con arroz blanco y pan rústico. ¡Buen provecho!\nSi te ha gustado la receta de Potaje de garbanzos con espinacas y chorizo, te sugerimos que entres en nuestra categoría de Recetas de Potajes."
+    ]
+  },
+  {    
+    "tag":"Receta de Salsa de camarones para pasta",
+    
+    "patrones":[
+        "Receta de Salsa de camarones para pasta",
+        "Recetas",
+        "Salsas",
+        "Salsas blancas",
+        "Coste medio",
+        "Frito"
+      ],
+    
+    "respuestas":["Receta de Salsa de camarones para pasta \nIngredientes: \n500 gramos de camarones pequeños o gambas frescas\n4 cucharadas soperas de queso crema\n500 mililitros de crema de leche o nata para cocinar\n1 cebolla\n2 dientes de Ajo\n1 pizca de Sal\n1 pizca de Pimienta molida\n1 puñado de Brotes de alfalfa (opcional)\n1 puñado de Perejil picado (opcional)\n Procedimiento: \nEl primer paso para preparar esta salsa de gambas para pasta es lavar y limpiar bien los camarones. Luego quítales la cabeza y el hilillo negro del lomo, y luego pélalos. Resérvalos para más tarde.\nNo tires las cabezas. Tienes que ponerlas en una sartén a fuego medio para que se doren y suelten todo su jugo. Así nuestra pasta con camarones en salsa blanca sabrá muchísimo más al marisco.\nTruco: Si lo prefieres puedes comprar los camarones congelados o cocidos y pelados ya directamente para ahorrarte trabajo.\nMientras tanto, pela y pica la cebolla y los ajitos bien finos. Una vez se hayan dorado las cabezas de las gambas, retíralas de la sartén y añade las verduras picadas. Cocina hasta que la cebolla esté transparente.\nTruco: Aquí es el momento de poner a hervir la pasta que hayas elegido para este plato\nA continuación, agrega los camarones y déjalos sofreír hasta que tomen color.\nSeguidamente, baja el fuego de la sartén y agrega la crema de leche o nata líquida para cocinar. Agrega una pizca de sal y pimienta molida al gusto y cocina la salsa de gambas y nata hasta que espese un poco.\nDespués agrega el queso de untar y mezcla toda la salsa de camarones para pasta con crema bien. Cocina todo unos minutos más hasta obtener la consistencia deseada.\nPor último, agrega los brotes de alfalfa o el perejil picado y sirve tu salsa de camarones para pasta fácil encima de la pasta cocida que hayas hecho. ¡Y a comer!\nNo olvides que siempre puedes variar las recetas y agregar otro tipo de brotes (como brotes de ajo o soja) o hierbas aromáticas (como las finas hierbas o el cilantro) a tu gusto por encima de esta pasta con camarones en salsa blanca.\nSi te ha gustado la receta de Salsa de camarones para pasta, te sugerimos que entres en nuestra categoría de Recetas de Salsas blancas."
+    ]
+  },
+  {    
+    "tag":"Receta de Patatas a la riojana fácil",
+    
+    "patrones":[
+        "Receta de Patatas a la riojana fácil",
+        "Recetas",
+        "Guisos y Potajes",
+        "Guiso",
+        "Coste barato",
+        "Estofado",
+        "Recetas españolas"
+      ],
+    
+    "respuestas":["Receta de Patatas a la riojana fácil \nIngredientes: \n400 gramos de patatas\n200 gramos de chorizo rojo (extremeño)\n1 unidad de cebolla (no muy grande)\n4 dientes de Ajo\n3 hojas de Laurel\n2 unidades de pimientos rojos (choriceros)\n1 cucharada sopera de Pimentón\nAgua\n Procedimiento: \nPelamos y picamos las patatas de forma irregular. Para hacer la auténtica receta, debemos hacer un corte en la patata y romper, así obtenemos las patatas rotas de forma irregular.\nPicamos la cebolla y los ajos en trocitos pequeños. Luego, cogemos una sartén honda y ponemos aceite a calentar para sofreír estos ingredientes. Cuando esté caliente, añadimos la cebolla y el ajo y cocinamos hasta que estén blandos (caramelizados).\nIncorporamos el laurel, el pimentón, el chorizo y las patatas y dejamos rehogar durante 3 minutos. Acto seguido, agregamos los pimientos previamente cortados en trocitos y machacados en el mortero con una cucharadita de sal.\nSeguimos rehogando unos minutos más. Finalmente, vertemos agua hasta cubrir todos los ingredientes, o un poco más si fuese necesario. Dejamos cocinar durante 5 minutos a fuego rápido, luego bajamos a lento y lo mantenemos hasta que las patatas estén cocidas (unos 10 minutos más aproximadamente).\nCuando estén, servimos las patatas a la riojana calientes. Y de segundo, podemos preparar un solomillo al horno o en salsa.\nSi te ha gustado la receta de Patatas a la riojana fácil, te sugerimos que entres en nuestra categoría de Recetas de Guiso. También puedes visitar una selección de las mejores recetas españolas."
+    ]
+  },
+  {    
+    "tag":"Receta de Queso provolone al horno con tomate",
+    
+    "patrones":[
+        "Receta de Queso provolone al horno con tomate",
+        "Recetas",
+        "Huevos y lácteos",
+        "Queso",
+        "Coste barato",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Queso provolone al horno con tomate \nIngredientes: \n1 rodaja de queso provolone (de 150 gramos aproximadamente)\n2 tomates maduros\n1 cebolla pequeña\n1 diente de ajo\n1 pizca de sal\n1 pizca de pimentón ahumado\n1 puñado de cebolla frita\n1 chorro de aceite de oliva virgen extra\n Procedimiento: \nPara preparar nuestro queso provolone al horno empezamos preparando la salsa de tomate casera. Entonces pelamos la cebolla, la picamos finita y la ponemos a pochar en una sartén al fuego con un poco de aceite de oliva. A continuación pelamos el ajo, lo picamos y lo añadimos a la sartén. Pelamos los tomates, les quitamos el corazón y los partimos en trozos pequeños. Los ponemos también en la sartén.\nTruco: Si tienes salsa de tomate casera preparada con antelación tendrás tu receta italiana de provolone lista en cuestión de minutos.\nAñadimos sal y pimentón ahumado y freímos removiendo con frecuencia hasta que el tomate esté casi deshecho y la cebolla esté transparente. Retiramos del fuego y vertemos en una fuente o cazuela de barro que sea apta para el horno. Colocamos encima la rodaja de queso provolone.\nTruco: Lo ideal sería usar una cazuela del mismo tamaño (o lo más aproximado posible) que la rodaja de queso que tengamos.\nIntroducimos el queso provolone al horno precalentado a 180 ºC y horneamos hasta que esté derretido y por los bordes empiece a asomar la salsa de tomate.\nSacamos entonces el queso provolone al horno con tomate y le ponemos un puñado de cebolla frita en la superficie. Servimos caliente acompañado de panes variados pero... ¡cuidado que el queso recién salido del horno nos puede quemar la lengua!\nY si buscas más recetas no te olvides visitar mi blog Los dulces secretos de Cuca.\nSi te ha gustado la receta de Queso provolone al horno con tomate, te sugerimos que entres en nuestra categoría de Recetas de Queso."
+    ]
+  },
+  {    
+    "tag":"Receta de Pesto de espinacas vegano",
+    
+    "patrones":[
+        "Receta de Pesto de espinacas vegano",
+        "Recetas",
+        "Salsas",
+        "Salsas verdes",
+        "Coste medio",
+        "Recomendada para veganos",
+        "Sin cocción",
+        "Recetas italianas"
+      ],
+    
+    "respuestas":["Receta de Pesto de espinacas vegano \nIngredientes: \n2 dientes de Ajo\n6 tarros de espinacas frescas\nAceite de oliva\n1 cucharada sopera de albahaca fresca\n1 cucharadita de Sal\n1 cucharada sopera de Almendras molidas (opcional)\n50 gramos de Nueces peladas\n Procedimiento: \nColoca todos los ingredientes y utensilios en tu espacio de trabajo. ¡Listo todo para preparar esta sabrosa salsa para pasta de pesto vegano con nueces!\nMachaca en el mortero los ajos y reserva. El pesto tradicional se trituraba en mortero, así que vamos a imitar la tradición pero con el pesto vegano para pasta.\nTritura en el mortero las espinacas y el albahaca juntas. Reserva. La madera en los utensilios ayuda a mantener la frescura de hierbas y vegetales. ¡Qué verde es nuestra salsa de pesto vegana!\nTruco: Pasa todo la mezcla, a un bol.\nUtiliza un bol para machacar mejor las hierbas. Tritura un poco más, hasta que sea una pasta. Agrega el aceite, el ajo y la sal. ¡Casi terminamos la salsa de espinacas para pasta!\nAñade las nueces trituradas a la salsa. Mezcla muy bien el pesto de albahaca vegano. No te preocupes si encuentras algún trocito de nueces o hierbas resegado.\n¡Qué fácil y saludable! Sin duda, esta salsa de espinacas para pasta es una excelente opción vegana culinaria. ¡Te salva de apuros!\nEnvíame una foto por favor y deja un comentario sobre tu pesto de espinacas vegano. ¡Será muy gratificante para mí!\nSi te ha gustado la receta de Pesto de espinacas vegano, te sugerimos que entres en nuestra categoría de Recetas de Salsas verdes. También puedes visitar una selección de las mejores recetas italianas.\nTradicionalmente la pasta al pesto se preparaba con mortero, pero hoy en día se puede utilizar algún ayudante de cocina o utensilio diseñado para triturar o machacar. Lo interesante de la receta original, es que durante el proceso de “machacar” usando el mortero, conservas más el sabor y se marchitan menos las hojas. Quizás influya que el mortero es de madera y no de metal, como usualmente son las cuchillas de los ayudantes de cocina. Además, siempre es mejor machacar las hojas sin cocinarlas, sin embargo para ablandarlas un poco y facilitarnos el trabajo, podemos cocinarlas 5 minutos. Recuerda que se cocinan poco para conservar sus beneficios.\nSi decides preparar esta receta de pesto vegano con nueces como te sugiero, puedes picar las hojas en trozos pequeños y así facilitar la trituración en el mortero. Puedes romper las hojas con las manos o un cuchillo para lechuga, en última instancia usa el cuchillo de toda la vida. Si tienes un mortero pequeño, sustituye la base por un bol profundo y utiliza el utensilio de madera que le acompaña para triturar.\nExisten algunos ingredientes que puedes sustituir por otros para preparar el pesto de albahaca vegano. Si no tienes piñas, puedes reemplazarlas por: almendras o nueces. La albahaca se sustituye por remolacha, aguacate, perejil o cilantro, entre otros. El queso parmesano o pecorino italiano se reemplaza por levadura, si eres celiaco verifica si es libre de gluten. El ajo puede sustituirse por cebolla. El aceite de oliva por algún aceite vegetal, sin embargo, en este caso es preferible el ingrediente original. Recuerda, es recomendable eliminar la venita del centro del ajo, para que sea más fácil de digerir."
+    ]
+  },
+  {    
+    "tag":"Receta de Veganesa de aguacate",
+    
+    "patrones":[
+        "Receta de Veganesa de aguacate",
+        "Recetas",
+        "Salsas",
+        "Mayonesa",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Sin cocción"
+      ],
+    
+    "respuestas":["Receta de Veganesa de aguacate \nIngredientes: \n1 taza de aceite oliva sabor suave o aceite de girasol\n½ taza de leche de soja sin azúcares\n1 diente de ajo\n1 cucharadita de sal\n1 aguacate mediano\n1 cucharada sopera de zumo de limón\n Procedimiento: \nOrdena los ingredientes en la mesa con su respectivas cantidades. Agrega los utensilios que necesitarás para preparar esta mayonesa vegana.\nRetira la cáscara del aguacate. Pica la fruta a la mitad y saca la pepa. Luego, corta en trozos medianos, así facilitas el proceso de machacado. ¡Listo todo para preparar la salsa de aguacate!\nTritura el aguacate hasta conseguir una pasta. Utiliza el utensilio de cocina de tu preferencia. En esa ocasión utilicé una licuadora manual pero puedes utilizar: la licuadora, un pisa papas, un procesador de alimentos.... !hasta el mortero!\nEs importante lograr una pasta homogénea, bien triturada sin grumos para la base de nuestra veganesa con leche de soja.\nUna vez lograda la pasta o crema, agrega el resto de los ingredientes a excepción del aceite. Mezcla hasta lograr una consistencia cremosa. Luego, coloca poco a poco el aceite, hasta lograr una textura homogénea, semejante a la mayonesa tradicional.\nLa consistencia ideal de la veganesa es parecida a la mayonesa común, sin embargo tú puedes jugar con la textura hasta lograr la ideal para ti. El secreto está en la cantidad de aceite, menos aceite más densa y más aceite más ligera. Por otro lado, si utilizas menos aceite, más light será la salsa. El mínimo de aceite que puedes utilizar es 100 mililitros, el promedio ideal es alrededor de una 1 taza o incluso algo más, con este promedio tú puedes jugar.\nTruco: Cuando agregas el aceite no debes parar de mezclar, por lo cual, es recomendable hacerlo con un ayudante de cocina eléctrico o mezclar de forma vigorosa y continua utilizando una varilla manual.\n¡Lista para servir! Esta deliciosa mayonesa de aguacate sin huevo, la puedes combinar con casi cualquier aperitivo. Las hamburguesas, los perros calientes, los tequeños o sándwiches saben deliciosos con esta preparación. ¡Combina con todo!\nY también, esta veganesa de aguacate es perfecta para la mesa en festejos: cumpleaños, Navidad, Año Nuevo, entre otros.\nSi se te antoja una salsa rica y ligera, aquí tienes la opción perfecta. Además,resulta muy fácil de preparar, rápida y necesitas poco ingredientes. ¡Manos a la obra!\nPrueba esta deliciosa mayonesa de aguacate vegana y comparte tu experiencia con nosotros. ¿Con foto? ¡Sí, muchísimo mejor!\nSi te ha gustado la receta de Veganesa de aguacate, te sugerimos que entres en nuestra categoría de Recetas de Mayonesa.\nEl aguacate es una fruta tropical exótica y versátil, capaz de adaptarse a platillos salados o dulces. En la gastronomía este fruto aporta mucho por su textura cremosa y sabor neutro. Por otro lado están sus maravillosos aportes al organismo, gracias a los múltiples nutrientes que posee, entre los cuales se puede destacar los omegas. ¡Un invaluable aporte de grasas saludables para el cuerpo!\nLa veganesa de aguacate posee un sabor refrescante y muy cremoso, ideal para casi cualquier aperitivo. Las papas, los bocadillos, hamburguesas, perros calientes, ensaladas de pasta, tequeños, señoritas, la ensaladilla rusa, los sándwiches, vegetales asados o hervidos; se verán enriquecidos con su exquisito sabor. Además… ¡no posee leche ni huevos¡\nLa comida vegana en general es muy saludable, veganos y no veganos pueden disfrutar de sus maravillosos beneficios. En lo personal adoro la comida vegana porque es excelente para la salud y puede combinarse en una dieta mixta. Te invito a probar esta deliciosa veganesa de aguacate...verás como se convertirá en tu favorita."
+    ]
+  }, 
+  {    
+    "tag":"Receta de Alioli con túrmix",
+    
+    "patrones":[
+        "Receta de Alioli con túrmix",
+        "Recetas",
+        "Salsas",
+        "Mayonesa",
+        "Coste barato",
+        "Receta sin lactosa",
+        "Sin cocción"
+      ],
+    
+    "respuestas":["Receta de Alioli con túrmix \nIngredientes: \n1 huevo a temperatura ambiente\n4 ajos\nAceite\n Procedimiento: \nPoner el huevo, los ajos cortados y un poco de aceite en el vaso de la batidora.\nDejar la batidora en el fondo del vaso sin mover a velocidad media hasta que todo el alioli casero emulsione\nEchar un poco de aceite si hiciera falta en la salsa alioli y listo para acompañar con a las patatas por ejemplo. Este alioli con túrmix fácil no te defraudará.\nTruco: Puedes añadir una pizca de sal también si quieres.\nSi te ha gustado la receta de Alioli con túrmix, te sugerimos que entres en nuestra categoría de Recetas de Mayonesa."
+    ]
+  },
+  {    
+    "tag":"Receta de Veganesa de zanahoria",
+    
+    "patrones":[
+        "Receta de Veganesa de zanahoria",
+        "Recetas",
+        "Salsas",
+        "Mayonesa",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Receta sin lactosa",
+        "Sin cocción",
+        "Receta tradicional de Francia"
+      ],
+    
+    "respuestas":["Receta de Veganesa de zanahoria \nIngredientes: \n250 gramos de zanahorias\n2 cucharadas soperas de tahine\n½ zumo de limón\n100 mililitros de aceite de oliva sabor suave o aceite de girasol\n½ diente de ajo\n1 pizca de sal\n Procedimiento: \nCocina la zanahoria durante 20 minutos aproximadamente o hasta que su textura sea tierna. Otro método es cocinarlas al vapor, mucho mejor porque así evitas el exceso de humedad en la hortaliza. Demasiada humedad puede perjudicar el resultado de la salsa de zanahoria.\nEscurre las zanahorias sancochadas durante unos minutos. Espera hasta que salga todo el agua, esto es importante para controlar la consistencia de la mayonesa vegana.\nCorta la hortaliza en rodajas o trozos pequeños para facilitar el proceso de triturado. Si utilizas una licuadora de mano que posea una parte de plástico, como en este caso, debes esperar a que la zanahoria esté casi fría o el plástico se derretirá. En cambio, si utilizas un pisa-papas, licuadora u otro procesador de alimentos, resulta recomendable triturar la hortaliza mientras se encuentra entre caliente-tibia. Así se facilitará la preparación del puré para nuestra mayonesa de zanahoria vegana.\nDeposita las zanahorias cortadas en el envase de la licuadora. Procesa hasta lograr una pasta suave y pareja. Es importante no dejar grumos para obtener la consistencia adecuada para la salsa vegana.\n¡Listo! Ahora ya puedes colocar la mesa de trabajo con todo lo necesario para comenzar esta exquisita receta de mayonesa de zanahoria sin huevo.\nAsa medio ajo con una cucharadita de aceite de oliva. Remueve constantemente, así evitarás que se queme. Si el ajo se quema, será amargo y no servirá.\nTambién puedes agregar el diente de ajo crudo, sin embargo lo recomiendo asado pues suaviza su sabor y la mayonesa vegana queda... ¡divina!.\nTruco: Si colocas el ajo crudo es recomendable retirar la veta que se encuentra en el centro.\nVerte el tahine, el ajo, el zumo de limón y la sal en la licuadora. Mezcla hasta integrar todos los ingredientes.\nAñade el aceite poco a poco, hasta lograr una consistencia homogénea. Recuerda, aquí te sugiero 100 militros como base pero puedes agregar más aceite hasta conseguir la textura de tú preferencia. Si deseas algo más semejante a una mayonesa tradicional lo ideal es una taza de aceite, o a veces incluso un poco más, depende del gusto de cada quién. Si te decides por usar el mínimo, es decir 100 mililitros, tendrás una consistencia más parecida a un dip pero la mayonesa de zanahoria sin huevo será más saludable e igualmente exquisita .\nTruco: Cuando agregues el aceite no debes parar de mezclar, por lo cual es más recomendable hacerlo con un ayudante de cocina eléctrico. Si necesitas hacerlo manual, hazlo de forma vigorosa utilizando una varilla, sin parar. ¿Cuando sabes que está lista? Es\n¡A degustar! Los usos de la veganesa de zanahoria son casi ilimitados, por lo cual resulta una aliada perfecta para sacarte de apuros en más de una ocasión. Ideal para realzar guarniciones y aperitivos, siempre te lucirás con ella.\n¿Quién puede resistir el sabor de la mayonesa para veganos? Si ya caíste en sus encantos, por favor comparte tu experiencia y una foto de tu creación culinaria.\nSi te ha gustado la receta de Veganesa de zanahoria, te sugerimos que entres en nuestra categoría de Recetas de Mayonesa.\nUn paso fundamental en las veganesas y las mayonesas tradicionales es el momento cuando mezclas el aceite con la totalidad de los ingredientes. Ese momento justo es crucial para la consistencia adecuada de la salsa. Lo recomendable es agregar el aceite poco a poco, para obtener los resultados esperados.\nSi no consigues tahine o resulta un poco engorroso encontrarlo, compra semillas de sésamo y prepáralo en casa. El tahine es una pasta preparada con semillas de ajonjolí (conocida en algunos lugares como sésamo) que se le agrega a una gran cantidad de salsas y platos provenientes del Medio Oriente, incluso algunos del Mediterráneo y de la zona Balcánica. El hummus, baba ganush, halva, croquetas, faláfel, ensaladas, shawarma, pan de pitas y los pinchos morunos, representan algunos de las formas de aplicar esta sabrosa pasta. Para prepararla sólo necesitas: aceite de oliva, semillas de sésamo tostadas y una pizca de sal. Procesas todo y listo… ¡muy fácil! Recuerda que para nuestra salsa de zanahoria sólo necesitas 2 cucharadas de tahine."
+    ]
+  },
+  {    
+    "tag":"Receta de Salsa de zanahoria y cebolla para carne o verdura",
+    
+    "patrones":[
+        "Receta de Salsa de zanahoria y cebolla para carne o verdura",
+        "Recetas",
+        "Salsas",
+        "Salsas para carnes y verduras",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Frito"
+      ],
+    
+    "respuestas":["Receta de Salsa de zanahoria y cebolla para carne o verdura \nIngredientes: \n5 zanahorias medianas \n1 cebolla \n1 cucharadita de romero \n1 cucharadita de pasta de miso \n2 dientes de ajo \n1 taza de agua (240 mililitros) \n½ taza de vino blanco \n1 cucharada sopera de harina de trigo \n1 pizca de sal \n1 pizca de pimienta \n2 cucharadas soperas de aceite\n Procedimiento: \nCorta la zanahoria y la cebolla en dados, y corta el ajo en láminas.\nCalienta el aceite en un cazo y pocha un poco la cebolla y el ajo. Añade la zanahoria y cocina 2 minutos a fuego medio removiendo de vez en cuando.\nAñade el vino, una pizca de sal y pimienta y el romero y cocina hasta que la zanahoria quede blanda.\nA continuación, añade la harina y remueve rápido para disolver los grumos. Poco a poco añade el agua removiendo continuamente hasta obtener la textura deseada.\nTritura la salsa salsa de zanahoria y cebolla en la batidora o con una miniprimer hasta que quede cremosa. Añade la pasta de miso y remueve con una espátula. La pasta de miso no se debe hervir, por tanto, la añadimos al final cuando la salsa de haya enfriado un poco.\nUsa la salsa de zanahoria y cebolla para carnes o verduras o para acompañar tu plato favorito. Yo te recomiendo que la utilices en algunos de mis recetas veganas como los filetes empanados o los filetes de soja.\nSi te ha gustado la receta de Salsa de zanahoria y cebolla para carne o verdura, te sugerimos que entres en nuestra categoría de Recetas de Salsas para carnes y verduras."
+    ]
+  },
+  {    
+    "tag":"Receta de Bizcocho de yogur griego",
+    
+    "patrones":[
+        "Receta de Bizcocho de yogur griego",
+        "Recetas",
+        "Pan y bollería",
+        "Bizcochos",
+        "Coste barato",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Bizcocho de yogur griego \nIngredientes: \n2 yogures griegos naturales\n3 huevos\n2 medidas de yogur de harina\n1 medida de yogur de maicena\n1 sobre de levadura química tipo Royal o polvos de hornear\n1 medida de yogur de azúcar (blanco o moreno)\n1 medida de yogur de aceite de girasol\nRalladura de limón (opcional)\nEsencia de vainilla (opcional)\n Procedimiento: \nPrecalienta el horno a 180 ºC mientras preparas la masa del bizcocho de yogur griego esponjoso. Asimismo, vacía los yogures en un bol y utiliza los recipientes vacíos para medir el resto de ingredientes.\nEn otro bol, mezcla el azúcar blanco o moreno junto con los huevos hasta obtener una crema blanquecina y homogénea con ayuda de unas varillas o un batidor de mano eléctrico.\nTruco: Puedes utilizar también algún edulcorante artificial o natural pero ten en cuenta que las cantidades a añadir variarán ligeramente.\nAgrega esta mezcla a los yogures griegos junto con el aceite de girasol y, de manera opcional, puedes añadir si quieres la ralladura de un limón o unas gotitas de esencia de vainilla, según el sabor que le quieras dar a este bizcocho de yogur griego casero.\nAñade las harinas y la levadura tamizándolas previamente y bate de nuevo hasta conseguir una masa homogénea.\nTruco: Si quieres conseguir un bizcocho de yogur griego sin gluten utiliza solo 3 medidas de maicena y nada de harina común.\nVierte la masa del bizcocho de yogur griego fácil en un molde redondo, cuadrado o rectangular previamente engrasado y enharinado o forrado con papel vegetal/sulfurizado. Mételo al horno y cocínalo durante unos 40 minutos hasta que esté bien cocido.\nTruco: Pincha en el centro del queque con un palillo y si este sale limpio y seco es que está bien horneado.\nUna vez horneado, déjalo enfriar a temperatura ambiente sobre una rejilla y después ya podrás degustar el bizcocho de yogur griego natural cuando quieras.\nTruco: Guárdalo en una recipiente hermético forrado con papel vegetal para que tarde más en secarse.\nSi te ha gustado la receta de Bizcocho de yogur griego, te sugerimos que entres en nuestra categoría de Recetas de Bizcochos."
+    ]
+  },
+  {    
+    "tag":"Receta de Shiro etíope",
+    
+    "patrones":[
+        "Receta de Shiro etíope",
+        "Recetas",
+        "Aperitivos y tapas",
+        "Cremas para untar",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Estofado",
+        "Receta tradicional de Etiopía"
+      ],
+    
+    "respuestas":["Receta de Shiro etíope \nIngredientes: \n½ taza de harina de garbanzos\n½ taza de aceite vegetal\n½ taza de tomate triturado\n2 cebollas\n2 dientes de ajo\n1 cucharadita de jengibre fresco rallado\n1 pizca de guindilla en polvo\n¼ cucharadita de jengibre en polvo\n1 pizca de clavo\n1 pizca de pimienta\n½ cucharadita de sal\n1 pizca de cilantro\n1½ tazas de agua (360 mililitros)\n Procedimiento: \nCalienta una olla con un chorro de aceite y sofríe la cebolla y el ajo picados, el jengibre fresco y todas las especias durante varios minutos para que suelten el aroma.\nAñade el resto del aceite y deja que se caliente y se infusione varios minutos.\nAñade el tomate triturado y mezcla con un batidor manual para incorporar bien los ingredientes.\nBaja el fuego y poco a poco añade la harina de garbanzos removiendo con las varillas, cocina un par de minutos y agrega el agua. La cantidad indicada en esta receta de crema de garbanzos etíope es orientativa, añádela poco a poco hasta obtener una textura que más te agrade. Puedes dejarla casi líquida o más espesa como una especie de paté o hummus.\nUna vez integrados los ingredientes pasa la mezcla por la batidora un par de minutos hasta que el shiro de Etiopía quede cremoso. Sirve este puré de garbanzos con especias y cómetelo solo o untado en un trozo de pan injera por ejemplo.\nSi entras en mi blog Vegspiration podrás encontrar esta y algunas recetas más típicas de la cocina etíope.\nSi te ha gustado la receta de Shiro etíope, te sugerimos que entres en nuestra categoría de Recetas de Cremas para untar."
+    ]
+  },
+  {    
+    "tag":"Receta de Salsa Alfredo sin nata ni leche",
+    
+    "patrones":[
+        "Receta de Salsa Alfredo sin nata ni leche",
+        "Recetas",
+        "Salsas",
+        "Salsas blancas",
+        "Coste barato"
+      ],
+    
+    "respuestas":["Receta de Salsa Alfredo sin nata ni leche \nIngredientes: \n100 gramos de Mantequilla\n100 gramos de queso parmesano\n1 pizca de Pimienta negra\n200 gramos de pasta fresca\n Procedimiento: \nAntes de ponernos manos a la obra con la salsa Alfredo sin crema de leche, cocemos la pasta fresca en abundante agua. Es importante no tirar el agua de la cocción una vez hecha, ya que este es otro de los ingredientes secretos de la receta tradicional de la salsa.\nPara hacer tu propia salsa, no te pierdas nuestra receta de pasta fresca casera, ¡es muy fácil!\nCuando la pasta esté lista, la escurrimos pero reservamos el agua para más adelante. La pasamos por agua fría para evitar que se siga cocinando y la apartamos un momento. Ahora, empezamos a preparar la salsa. Para ello, en una sartén honda calentamos la mantequilla.\nCuando se haya fundido, incorporamos medio vaso del agua de la cocción de la pasta, removemos y cocinamos a fuego bajo. Al haber soltado la pasta el almidón durante la cocción, el agua obtenida es excelente para espesar la salsa Alfredo sin nata ni leche, además de resultar una manera magnífica de aprovechar cada ingrediente.\nAñadimos la pasta a la sartén, la pimienta al gusto, mezclamos y agregamos medio vaso más de agua. Por último, sumamos el queso parmesano y cocinamos hasta que se funda e integre. Si lo consideramos necesario, podemos añadir un poco más de agua.\n¡Listo! Servimos el plato de pasta Alfredo sin crema de leche con más queso parmesano espolvoreado por encima. Como ves, se trata de un plato delicioso que nada tiene que envidiar a su versión con nata y leche. Puedes acompañarlo con un trozo de pan casero y una ensalada caprese, ¡le queda genial!\nSi te ha gustado la receta de Salsa Alfredo sin nata ni leche, te sugerimos que entres en nuestra categoría de Recetas de Salsas blancas."
+    ]
+  },
+  {    
+    "tag":"Receta de Adobo para carne de cerdo a la parrilla",
+    
+    "patrones":[
+        "Receta de Adobo para carne de cerdo a la parrilla",
+        "Recetas",
+        "Salsas",
+        "Salsas para carnes y verduras",
+        "Coste barato",
+        "Poco picante",
+        "Sin cocción"
+      ],
+    
+    "respuestas":["Receta de Adobo para carne de cerdo a la parrilla \nIngredientes: \n10 dientes de ajo grandes\nPimienta\nOrégano\nVinagre de vino blanco\nSal\nAceite de oliva o pepita de uva\nAji verde (opcional)\nJugo de 1 limón\n Procedimiento: \nAñadir los ajos pelados a una procesadora de alimentos.\nVerter el jugo de limón.\nLuego agregar la pimienta (yo utilicé molida) al gusto.\nLuego añadir el aceite de oliva o de pepita de uva.\nPueden agregar también orégano y sal al gusto. Procesar todo hasta que se forme una salsita para adobar la carne de cerdo o puerco.\nRepartir el adobo para carne de chancho por encima de la pieza deseada y dejar reposar unas horas.\nY así se termina de marinar la carne para asar al carbón, bien sazonada.\nPor último asar la carne de cerdo adobada. Yo la hice a la parrilla.\nRecuerda que puedes utilizar esta receta de adobo para carne de cerdo a la parrilla para marinar otro tipo de carnes que quieres asar al carbón. ¡Buen provecho!\nSi te ha gustado la receta de Adobo para carne de cerdo a la parrilla, te sugerimos que entres en nuestra categoría de Recetas de Salsas para carnes y verduras."
+    ]
+  },
+  {    
+    "tag":"Receta de Bechamel de calabacín light",
+    
+    "patrones":[
+        "Receta de Bechamel de calabacín light",
+        "Recetas",
+        "Salsas",
+        "Salsas blancas",
+        "Coste barato",
+        "Recomendada para vegetarianos",
+        "Recomendada para perder peso",
+        "Hervido"
+      ],
+    
+    "respuestas":["Receta de Bechamel de calabacín light \nIngredientes: \n2 calabacínes medianos\n1 cebolla\n250 mililitros de Leche desnatada o vegetal\n1 cucharada sopera de Aceite de oliva virgen extra\n½ cucharada sopera de arroz (opcional)\n1 pizca de Nuez moscada\n1 pizca de Sal\n1 pizca de Pimienta negra\n1 diente de Ajo (opcional)\n Procedimiento: \nPara preparar esta bechamel de calabacín light, empezaremos pelando y picando la cebolla y el diente de ajo (si es que hemos elegido ponerlo) mientras se calienta la cucharada de aceite en un sartén. Una vez caliente, pochamos las verduras a fuego medio-alto.\nMientras tanto, pelamos los calabacines y los cortamos en dados pequeños, así la bechamel de dieta tardará muchos menos en hacerse (cuanto más grandes sean los trozos más tardarán en cocerse).\nSi quieres que la bechamel de calabacín tenga un color más parecido a la salsa original es mejor que les quites la piel.\nTruco: Si lo prefieres puedes dejar los calabacines con piel como he hecho yo pero ten en cuenta que te quedará una bechamel light con un color más verdoso y trocitos verdes de la piel visibles.\nCuando la cebolla empiece a estar dorada, agregamos lo dados de calabacín a la sartén, removemos y dejamos pochar durante unos 5 minutos.\nA continuación, añadimos la leche desnatada, una pizca de sal, nuez moscada y pimienta negra molida y el arroz. Entonces removemos todo bien, tapamos la sartén y dejamos que se cocine todo durante unos 20 minutos aproximadamente a fuego bajo.\nEste último ingrediente es opcional pero he comprobado que la textura de la bechamel de calabacín paso a paso es mucho más parecida a la salsa tradicional si lo agregamos.\nTruco: Si prefieres una bechamel de calabacín vegana utiliza leche vegetal en su preparación.\nUna vez pasado ese tiempo, comprobamos que las verduras están bien cocidas, lo pasamos todo a un vaso de batidora o a un recipiente hondo y trituramos la bechamel de calabacín para croquetas en este caso, ya que el toque del arroz hace que nos quede mucho más espesa.\nSi veis que no la queréis tan espesa podéis aclarar la bechamel de calabacín light añadiendo un poco más de leche o incluso agua. Una vez tiene la consistencia deseada, rectificamos de sabor ¡y listo!\nSi te ha gustado la receta de Bechamel de calabacín light, te sugerimos que entres en nuestra categoría de Recetas de Salsas blancas."
+    ]
+  },
+  {    
+    "tag":"Receta de Galletas de alubias",
+    
+    "patrones":[
+        "Receta de Galletas de alubias",
+        "Recetas",
+        "Pan y bollería",
+        "Galletas",
+        "Coste barato",
+        "Recomendada para deportistas",
+        "Recomendada para veganos",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Galletas de alubias \nIngredientes: \n210 gramos de harina de trigo (1½ tazas)\n90 gramos de panela (o azúcar)\n125 gramos de judías blancas cocidas\n80 gramos de nueces triturados\n1 puñado de muesli de avena\n1 puñado de pasas\n1 puñado de arándanos secos\n1 puñado de nueces\n1 chorro de sirope de agave\n Procedimiento: \nEn una batidora o picadora eléctrica tritura las judías blancas cocidas hasta que quede un puré homogéneo.\nLimpia bien el mismo electrodoméstico y tritura las nueces hasta conseguir una especie de harina.\nMezcla la harina, las judías, el azúcar, la harina de nueces en un bol. Amasa con las manos hasta que se incorporen bien todos los ingredientes.\nCuando obtengas una masa densa y elástica, estira la masa con un rodillo sobre un trozo de papel vegetal o una superficie enharinada hasta medio centímetro de grosor. Con un cortapastas recorta círculos de masa de galletas de judías.\nEncima de cada galleta de alubias coloca algunas pasas, arándanos, nueces picadas y una pizca de muesli de avena. Pinta los frutos secos con el sirope de agave con la ayuda de un pincel.\nCon el horno precalentado a 180 grados y hornea las galletas durante 10-15 minutos.\nDeja enfriar las galletas de alubias blancas y sírvelas.\nNo te pierdas otras recetas de galletas veganas con legumbres como las galletas de garbanzos y chocolate o las galletas de harina de garbanzos, y entra en mi blog Vegspiration para encontrar otros muchos tipos más.\nSi te ha gustado la receta de Galletas de alubias, te sugerimos que entres en nuestra categoría de Recetas de Galletas."
+    ]
+  },
+  {    
+    "tag":"Receta de Rollos de canela sin huevo",
+    
+    "patrones":[
+        "Receta de Rollos de canela sin huevo",
+        "Recetas",
+        "Pan y bollería",
+        "Roscos",
+        "Coste barato",
+        "Al horno",
+        "Receta tradicional de Suecia"
+      ],
+    
+    "respuestas":["Receta de Rollos de canela sin huevo \nIngredientes: \n750 gramos de harina de trigo\n60 gramos de mantequilla blanda\n200 mililitros de leche\n1 cucharada sopera de levadura\n2 cucharadas soperas de azúcar\n1 pizca de Sal\n40 gramos de mantequilla derretida\n200 gramos de azúcar moreno\n1 cucharada sopera de canela en polvo\n Procedimiento: \nEmpieza mezclando los ingredientes secos de los rollitos de canela sin huevo en un bol grande.\nAñade la mantequilla reblandecida y mezcla con los dedos hasta que se formen una especie de migas gruesas (a este proceso se le llama arenar la masa). Después ves agregando poco a poco la leche mientras remueves para que la masa no quede demasiado líquida.\nEn este momento la masa de los roles de canela sin huevo debe ser más consistente y se debe poder sacar fácilmente del bol. Si no es así, añade más harina y amasa con las manos hasta conseguir una textura más firme.\nTransfiere la masa a una superficie limpia y lisa espolvoreada con un poco de harina y sigue golpeando y amasándola durante 1 a 2 minutos. Este procedimiento hace que la masa de las caracolas de canela sin huevo quede más esponjosa y suave.\nDeja que la masa repose mientras preparas el relleno fácilmente: en un bol mezcla el azúcar con la canela.\nTruco: Dependiendo de si te gustan más o menos dulces, simplemente aumenta o disminuye la cantidad de azúcar en el relleno.\nEstira la masa con un rodillo en forma rectangular. Unta la mantequilla derretida en toda la superficie (utiliza una brocha o con las manos) y espolvorea la mezcla de antes por encima.\nComienza envolviendo la masa en forma de rollo como si de un brazo de gitano se tratara.\nTruco: Si enrollas la masa por el lado más largo obtendrás más rollitos pero más finos, en cambio, si lo haces por el lado corto obtendrás menos pero serán más gruesos.\nCorta el rollo de canela casero en toda su extensión formando rollitos de un poco más de 1 cm de ancho y mételos al horno precalentado a 180 °C en una bandeja forrada con papel sulfurizado.\nTruco: Coloca los rollos bien separados en la bandeja ya que cuando se hornean crecen el doble de su tamaño.\nDespués de hornearlos de 15 a 20 minutos, los rollitos de canela sin huevo tendrán el relleno derretido y la masa lucirá bien dorada. Es momento de sacarlos del horno, esperar que se enfríen y servirlos para el desayuno por ejemplo, acompañados de una bebida caliente no demasiado dulce.\nTruco: No los dejes demasiado tiempo en el horno para que no se queme el azúcar.\nSi te ha gustado la receta de Rollos de canela sin huevo, te sugerimos que entres en nuestra categoría de Recetas de Roscos."
+    ]
+  },
+  {    
+    "tag":"Receta de Calamares marinados a la plancha",
+    
+    "patrones":[
+        "Receta de Calamares marinados a la plancha",
+        "Recetas",
+        "Mariscos",
+        "Calamares",
+        "Coste medio",
+        "Plancha"
+      ],
+    
+    "respuestas":["Receta de Calamares marinados a la plancha \nIngredientes: \n1 kilogramo de calamares\n2 unidades de patatas\n1 unidad de Limón\n100 mililitros de Aceite de oliva\n2 unidades de Ajos\n1 puñado de Perejil\n Procedimiento: \nPara preparar este plato de calamares marinados a la plancha, en primer lugar limpiaremos los calamares, les quitaremos la piel y los limpiaremos por dentro, dándoles la vuelta para limpiarlos bien debajo del grifo.\nLos iremos poniendo en un plato con papel de cocina par ir secándolos. Y posteriormente les hacemos unos cortes trasversales.\nEn un recipiente o vaso de túrmix pondremos el aceite, los ajos, el perejil y un poco de zumo de limón, y lo trituraremos todo con la batidora. Así nuestro calamares a la plancha tiernos estarán muy sabrosos.\nPondremos los calamares en un recipiente y echaremos un poco de esta salsa, entonces los removemos bien para que cojan el sabor y los dejamos macerar un rato en la nevera.\nPuedes añadir otros condimentos, hierbas aromáticas o especias a estos calamares a la plancha con limón si lo prefieres.\nTruco: Este paso lo podéis pasar y hacer los calamares\nPonemos a cocer unas patatas, o las podéis hacer en el microondas, como prefiráis. Cuando estén cocidas las cortaremos a rodajas.\nPonemos una plancha o una sartén a calentar a fuego fuerte y cuando esté bien caliente, ponemos una par de cucharadas de aceite y vamos echando los calamares marinados en tandas: primero los cuerpos hasta que se doren bien.\nLuego añadimos los tentáculos de los calamares a la plancha con ajo y perejil y los freímos también hasta que estén bien dorados.\nFinalmente, cogemos una fuente, ponemos las rodajas de patatas y las salamos. Luego ponemos encima los calamares a la plancha y vertemos por encima un poquito más de la salsa de limón, ajo y perejil que hemos preparado. ¡Y ya está! Unos calamares marinados a la plancha listos para degustar.\nTruco: Podéis poner un poco de sal, pero suelen tener bastante sabor y con la salsa no hace falta ponerle mucha sal.\nSi te ha gustado la receta de Calamares marinados a la plancha, te sugerimos que entres en nuestra categoría de Recetas de Calamares."
+    ]
+  },
+  {    
+    "tag":"Receta de Gambones al horno con limón",
+    
+    "patrones":[
+        "Receta de Gambones al horno con limón",
+        "Recetas",
+        "Mariscos",
+        "Gambas",
+        "Coste barato",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Gambones al horno con limón \nIngredientes: \n1 kilogramo de Gambones\n4 dientes de Ajo\n2 cucharadas soperas de Perejil fresco picado\n½ limónL\n2 cucharadas soperas de Aceite de oliva virgen extra\n1 pizca de Sal\n Procedimiento: \nUna vez tengamos todo lo que necesitamos a mano, empezamos por preparar el marinado. Para ello, majar en el mortero los dientes de ajo, el perejil fresco picado y una pizca de sal.\nA continuación añadiremos el zumo de limón en el mortero con el resto de ingredientes. Incluimos también el aceite de oliva y mezclamos muy bien todo.\nAhora que ya tenemos el majado listo, extiende los gambones en la placa del horno y sazona con un poco de sal a gusto. Luego, reparte la mezcla de ajo y perejil por encima de ellos.\nPrecalentar el horno a 200ºC. Cuando alcance la temperatura meter los gambones y cocinar durante 15 minutos.\nEste tiempo es promedio, si por casualidad los gambones fueran muy grandes, a la cocción le añadiremos un par de minutos más.\nAhora a servirlos rápidamente los gambones al horno con limón antes de que se enfríen y a disfrutar de ellos!! Este plato se puede servir como tapa junto con unas cervezas bien frías, aunque también es un entrante perfecto para platos como una paella valenciana y una sangría casera.\nSi te ha gustado la receta de Gambones al horno con limón, te sugerimos que entres en nuestra categoría de Recetas de Gambas."
+    ]
+  },
+  {    
+    "tag":"Receta de Calamares encebollados",
+    
+    "patrones":[
+        "Receta de Calamares encebollados",
+        "Recetas",
+        "Mariscos",
+        "Calamares",
+        "Coste medio",
+        "Estofado"
+      ],
+    
+    "respuestas":["Receta de Calamares encebollados \nIngredientes: \n1 kilogramo de calamares frescos medianos\n4 cebollas grandes\n300 mililitros de Aceite de oliva\n½ vaso de Agua\n1 vaso pequeño de Vino de Jérez\n2 hojas de Laurel\n1 pizca de Sal\n1 puñado de Harina de trigo\n Procedimiento: \nLo primero que tenemos que hacer para preparar estos calamares encebollados es limpiarlos bien y cortarlos en rodajas. Asimismo, pelamos y cortamos las cebollas en juliana.\nA continuación, calentamos el aceite en una sartén y cuando esté templado agregamos las cebollas cortadas y dejamos que se pochen poco a poco a fuego lento con la tapa puesta aproximadamente durante unos 30 minutos. Tienen que quedar bien doradas y con un color marrón oscuro bonito así que, removemos de vez en cuando para que se doren homogéneamente y cuando estén caramelizadas, las reservamos.\nDespués rebozamos las rodajas de calamares con la harina de trigo y los freímos en la misma sartén pero cambiando el aceite, hasta que se doren.\nUna vez dorados, mezclamos los calamares con la cebolla en esa sartén y añadimos las hojas del laurel, el agua, un poquito de sal y el vino de Jerez. Entonces dejamos que se cocine todo junto unos 25 minutos a fuego lento.\nUna vez pasado ese tiempo, comprobamos el punto de sal de los calamares encebollados y añadimos un poco más si es necesario, ya que el sabor de la cebolla caramelizada les otorgará un punto dulce notable. ¡Y ya podemos servirlos! Te recomiendo que cortes unas cuantas rebanadas de pan casero esponjoso o pan de cerveza para mojar en la salsa de los calamares encebollados porque esta deliciosa.\nY si te gustan las recetas de este tipo, te recomiendo que le eches un vistazo a las siguientes:\nSi te ha gustado la receta de Calamares encebollados, te sugerimos que entres en nuestra categoría de Recetas de Calamares."
+    ]
+  },
+  {    
+    "tag":"Receta de Galletas de crema de cacahuete veganas",
+    
+    "patrones":[
+        "Receta de Galletas de crema de cacahuete veganas",
+        "Recetas",
+        "Pan y bollería",
+        "Galletas",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Recomendada para vegetarianos",
+        "Receta sin lactosa",
+        "Receta sin azúcar",
+        "Receta sin gluten",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Galletas de crema de cacahuete veganas \nIngredientes: \n1 taza de mantequilla de cacahuete (250 ml)\n1 taza de azúcar moreno o edulcorante equivalente\n1 cucharadita de esencia de vainilla\n1 cucharada sopera de lino triturado\n2½ cucharadas soperas de agua\n Procedimiento: \nEn un bol preparamos el huevo vegano mezclando el lino y el agua. Dejamos reposar al menos 5 minutos en la nevera para poder seguir con la receta de galletas de crema de cacahuete.\nPasado el tiempo, mezclamos todos los ingredientes en otro bol y amasamos hasta obtener una masa homogénea.\nHacemos bolas de igual tamaño para formar las galletas veganas de cacahuete y las colocamos sobre una bandeja de horno forrada de papel vegetal.\nCon la ayuda de un tenedor las aplastamos hasta obtener la forma deseada y metemos al horno ya caliente a 170 ºC durante unos 10-15 minutos.\nPasado el tiempo, sacamos las galletas de crema de cacahuete veganas y las dejamos sobre la bandeja unos minutos, hasta que dejen de estar muy calientes (si las movemos nada más salir del horno corremos el riesgo de que se rompan porque van a salir muy blanditas). Pasado un rato las movemos a una rejilla para terminar de enfriar.\nYa veréis qué pasada. Quedan sorprendentemente ligeras, crujientes por fuera y tiernas por dentro, y con un sabor maravilloso. En serio, de los dulces más ricos que he probado. ¡Adictivas!, e ideales para merendar o para comer a modo de postre después de una rica hamburguesa vegana de quinoa, por ejemplo. Más recetas deliciosas y sencillas en mi blog Mins Cocina, ¡os espero!\nSi te ha gustado la receta de Galletas de crema de cacahuete veganas, te sugerimos que entres en nuestra categoría de Recetas de Galletas."
+    ]
+  },
+  {    
+    "tag":"Receta de Torta de coco húmeda",
+    
+    "patrones":[
+        "Receta de Torta de coco húmeda",
+        "Recetas",
+        "Pan y bollería",
+        "Bizcochos",
+        "Coste barato",
+        "Al horno",
+        "Receta tradicional de Brasil"
+      ],
+    
+    "respuestas":["Receta de Torta de coco húmeda \nIngredientes: \n3 huevos\n½ vaso de aceite\n1 vaso de leche\n1½ vasos de azúcar\n1 vaso de harina de maíz\n1 vaso de harina de trigo\n1 cucharada sopera de polvo de hornear\n½ vaso de coco rallado\nAceite de coco\n Procedimiento: \nBatimos los huevos con la leche, el aceite y el azúcar durante 4 minutos a máxima potencia en la licuadora. Si no disponemos de licuadora, podemos batir los ingredientes a mano o con una batidora eléctrica de mano. Para potenciar el sabor, podemos utilizar leche de coco en lugar de leche de vaca.\nPara seguir con la receta de torta húmeda de coco, en un bol tamizamos las harinas. Después, añadimos poco a poco la mezcla de harinas a la licuadora y vamos batiendo. Es importante no agregar toda la harina de golpe porque no se mezclará adecuadamente.\nTruco: Si no tenemos licuadora, igualmente integramos la harina poco a poco.\nPor último, añadimos el coco rallado y los polvos de hornear, e integramos con suavidad, haciendo movimientos envolventes. Como el sabor de la torta de coco es al gusto, podemos agregar más cantidad de coco rallado si queremos.\nEngrasamos un molde de unos 20 cm de diámetro. Para ello, nosotros hemos utilizado mantequilla y azúcar en lugar de harina, ya que así obtendremos una torta de coco húmeda.\nVertemos la masa y horneamos el bizcocho húmedo de coco durante 30 minutos, con el horno precalentado a 180 ºC. En función del tipo de horno el tiempo de cocción puede variar, por lo que pasados los 30 minutos aconsejamos examinar la torta para comprobar si necesita más tiempo.\nUna vez que tenemos lista la torta de coco, para que queden aún más húmeda podemos preparar un jarabe calentando aceite de coco y agua, pinchando el bizcocho y distribuyendo esta mezcla para que penetre en él. Otra opción totalmente válida sería calentar en una sartén jugo de naranja o limón con azúcar al gusto.\nDejamos enfriar sobre una rejilla y servimos. Esta receta de torta de coco húmeda es sensacional, fácil y perfecta para cualquier ocasión. Incluso podemos preparar ganache de chocolate para decorarla si queremos.\nSi te ha gustado la receta de Torta de coco húmeda, te sugerimos que entres en nuestra categoría de Recetas de Bizcochos."
+    ]
+  },  
+  {    
+    "tag":"Receta de Torta de coco húmeda",
+    
+    "patrones":[
+        "Receta de Torta de coco húmeda",
+        "Recetas",
+        "Pan y bollería",
+        "Bizcochos",
+        "Coste barato",
+        "Al horno",
+        "Receta tradicional de Brasil"
+      ],
+    
+    "respuestas":["Receta de Torta de coco húmeda \nIngredientes: \n3 huevos\n½ vaso de aceite\n1 vaso de leche\n1½ vasos de azúcar\n1 vaso de harina de maíz\n1 vaso de harina de trigo\n1 cucharada sopera de polvo de hornear\n½ vaso de coco rallado\nAceite de coco\n Procedimiento: \nBatimos los huevos con la leche, el aceite y el azúcar durante 4 minutos a máxima potencia en la licuadora. Si no disponemos de licuadora, podemos batir los ingredientes a mano o con una batidora eléctrica de mano. Para potenciar el sabor, podemos utilizar leche de coco en lugar de leche de vaca.\nPara seguir con la receta de torta húmeda de coco, en un bol tamizamos las harinas. Después, añadimos poco a poco la mezcla de harinas a la licuadora y vamos batiendo. Es importante no agregar toda la harina de golpe porque no se mezclará adecuadamente.\nTruco: Si no tenemos licuadora, igualmente integramos la harina poco a poco.\nPor último, añadimos el coco rallado y los polvos de hornear, e integramos con suavidad, haciendo movimientos envolventes. Como el sabor de la torta de coco es al gusto, podemos agregar más cantidad de coco rallado si queremos.\nEngrasamos un molde de unos 20 cm de diámetro. Para ello, nosotros hemos utilizado mantequilla y azúcar en lugar de harina, ya que así obtendremos una torta de coco húmeda.\nVertemos la masa y horneamos el bizcocho húmedo de coco durante 30 minutos, con el horno precalentado a 180 ºC. En función del tipo de horno el tiempo de cocción puede variar, por lo que pasados los 30 minutos aconsejamos examinar la torta para comprobar si necesita más tiempo.\nUna vez que tenemos lista la torta de coco, para que queden aún más húmeda podemos preparar un jarabe calentando aceite de coco y agua, pinchando el bizcocho y distribuyendo esta mezcla para que penetre en él. Otra opción totalmente válida sería calentar en una sartén jugo de naranja o limón con azúcar al gusto.\nDejamos enfriar sobre una rejilla y servimos. Esta receta de torta de coco húmeda es sensacional, fácil y perfecta para cualquier ocasión. Incluso podemos preparar ganache de chocolate para decorarla si queremos.\nSi te ha gustado la receta de Torta de coco húmeda, te sugerimos que entres en nuestra categoría de Recetas de Bizcochos."
+    ]
+  },
+  {    
+    "tag":"Ponche crema de Oreo",
+    
+    "patrones":[
+        "Ponche crema de Oreo",
+        "Recetas",
+        "Cócteles y bebidas",
+        "Ponche",
+        "Coste medio",
+        "Recetas para Navidad",
+        "Hervido",
+        "Recetas venezolanas"
+      ],
+    
+    "respuestas":["Ponche crema de Oreo \nIngredientes: \n1½ tazas de leche evaporada\n1½ tazas de leche condensada (360 gramos)\n1 taza de agua (240 mililitros)\n3 huevos (la yema)\n12 galletas Oreo (trituradas)\n6 clavos dulces (opcional en polvo)\n3 ramas de canela\n1 pizca de nuez moscada\n1 taza de ron blanco\n Procedimiento: \nPrepara tu mesa de trabajo con todos los ingredientes necesarios para hacer este magnifico ponche crema de Oreo. Así, tritura las galletas de chocolate. Puedes triturar las Oreo de muchas maneras: dentro de una bolsa pasando un rodillo por encima, en un procesador de alimentos, en la licuadora o con el mortero.\nMezcla la leche evaporada con el agua, las galletas Oreo, la canela y los clavos dulces.\nHierve a fuego muy bajo la mezcla. Espera hasta que el líquido reduzca a la mitad, unos 15 minutos aproximadamente. Enfría a temperatura ambiente y reserva para seguir con la receta de ponche crema de Oreo.\nMezcla la leche condensada y las yemas. Cuela para eliminar sólidos y reserva. Si quieres restar calorías al ponche crema casero de Oreo, puedes preparar leche condensada sin azúcar en casa.\nIncorpora la mezcla reservada (galletas Oreo, leche evaporada y especias) a las yemas con leche condensada. Remueve hasta integrar todos los ingredientes.\nVierte dentro de un cazo pequeño la mezcla final obtenida y cocina al baño María a fuego muy bajo por 20 minutos. Remueve constantemente para evitar que se pegue a los bordes. Cuando el ponche consiga la textura que deseas, podrás retirarlo del fuego. Recuerda, tú decides cómo de espeso lo deseas, es cuestión de gustos.\nTruco: El agua debe haber empezado a hervir suavemente para cuando vayas a utilizar el baño María.\nRetira del fuego y vierte en otro recipiente. Mueve vigorosamente hasta que se enfríe a temperatura ambiente.\nAgrega el ron y nuez moscada a la mezcla y remueve. Vierte en una botella limpia y refrigera antes de servir. Se mantiene hasta una semana en la nevera.\nTruco: Recuerda que este ponche crema casero se puede beber caliente y recién preparado o frío, incluso con hielos.\nEste ponche crema de Oreo es indescriptible. Otra maravillosa receta creada con una de las galletas más versátiles de mundo..., ¡las galletas Oreo! Si por alguna razón te falta tiempo o ingredientes para preparar esta bebida, te recomiendo mi receta de ponche crema de café, ¡es demasiado fácil y económica! Para esa preparación basta con que reemplaces el café por el sabor de tú preferencia y, ¡listo!\nTe aseguro que cuando pruebes este ponche tan especial, se convertirá en tu receta preferida de la temporada decembrina. Por favor, comparte tu experiencia al preparar esta receta, si lo acompañas de una foto mejor. ¡Felices fiestas!\nSi te ha gustado la receta de Ponche crema de Oreo, te sugerimos que entres en nuestra categoría de Ponche. También puedes visitar una selección de las mejores recetas venezolanas."
+    ]
+  },
+  {    
+    "tag":"Receta de Koba akondro",
+    
+    "patrones":[
+        "Receta de Koba akondro",
+        "Recetas",
+        "Pan y bollería",
+        "Bizcochos",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Al vapor",
+        "Receta tradicional de Madagascar"
+      ],
+    
+    "respuestas":["Receta de Koba akondro \nIngredientes: \n2 plátanos maduros grandes\n100 gramos de harina de arroz\n50 gramos de panela\n1 cucharadita de esencia de vainilla\n1 cucharada sopera de sirope de agave\n150 gramos de cacahuetes\n Procedimiento: \nPela los plátanos y colócalos en un bol.\nAplasta los plátanos con un tenedor o un pisapurés hasta que queden hechos puré.\nTritura los cacahuetes en la batidora hasta que queden muy bien molidos y agrégalos al puré de plátanos.\nTambién añade la harina de arroz, la panela, la vainilla y el sirope de agave.\nMezcla con una cuchara hasta conseguir una masa espesa.\nCorta trozos de papel de aluminio cuadrados y pon en el centro de cada cuadrado varias cucharadas de masa. Dobla los bordes dándole forma de un cuadrado.\nCocina los dulces al vapor durante 25-30 minutos. Deja enfriar, desenvuelve y sirve los dulces koba akondro.\nPuedes servir este postre de Madagascar con fruta, mermelada o sirope de agave por ejemplo.\n¿Te gustaría probar otros postres internacionales? Échale un vistazo a este vareniki ucraniano de cerezas o entra en mi blog Vegspiration para descubrir muchas más recetas de las diferentes gastronomías del mundo.\nSi te ha gustado la receta de Koba akondro, te sugerimos que entres en nuestra categoría de Recetas de Bizcochos."
+    ]
+  },
+  {    
+    "tag":"Receta de Torrijas veganas al horno",
+    
+    "patrones":[
+        "Receta de Torrijas veganas al horno",
+        "Recetas",
+        "Pan y bollería",
+        "Torrijas",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Torrijas veganas al horno \nIngredientes: \n1 barra de pan integral duro\n¼ taza de copos de avena\n1 taza de harina de garbanzos\n½ taza de leche de soja o agua\n5 cucharadas soperas de panela\n1 cucharadita de canela\n1 chorro de esencia de vainilla\n Procedimiento: \nCorta la barra de pan integral en rodajas gruesas.\nEn un bol pon la harina de garbanzos.\nTruco: Hacer una tempura como veréis a continuación con este tipo de harina es la mejor forma de saber cómo sustituir el huevo en las torrijas.\nAñade poco a poco el agua o la leche de soja batiendo continuamente la mezcla con un tenedor hasta que tenga la consistencia de un huevo batido.\nAñade la vainilla, la canela y la panela al bol y remueve bien.\nPasa cada rodaja de pan por la mezcla de harina de garbanzos y empápalas bien.\nEn un plato coloca los copos de avena y reboza cada una de las torrijas veganas de pan por los copos.\nPrecalienta el horno a 180 grados y coloca las torrijas veganas en la rejilla o una bandeja de horno forrada con papel vegetal. Metelas torrijas al horno durante 15-20 minutos hasta que se doren un poco.\nNo te pierdas tampoco esta otra receta de torrijas al horno sin huevo.\nSirve las torrijas veganas al horno con fruta o con lo que quieras.\nSi prefieres hacer la receta de torrijas sin huevo ni leche veganas fritas como se hace tradicionalmente échale un vistazo a esta receta. Y entra en mi blog Vegspiration si quieres descubrir otro postres típicos de diferentes regiones de España o países del mundo.\nSi te ha gustado la receta de Torrijas veganas al horno, te sugerimos que entres en nuestra categoría de Recetas de Torrijas."
+    ]
+  },
+  {    
+    "tag":"Receta de Pollo enchilado al horno para Navidad",
+    
+    "patrones":[
+        "Receta de Pollo enchilado al horno para Navidad",
+        "Recetas",
+        "Aves y caza",
+        "Pollo",
+        "Coste barato",
+        "Recetas para Navidad",
+        "Picante",
+        "Al horno",
+        "Recetas mexicanas"
+      ],
+    
+    "respuestas":["Receta de Pollo enchilado al horno para Navidad \nIngredientes: \n1 pollo cortado en octavos limpio (o entero)\n2 chiles morita secos\n4 chiles anchos secos\n4 chiles guajillo secos\n3 dientes de ajo pelados\n½ cebolla pelada\n4 jitomates rojos\n1 cucharada postre de comino\n1 taza de jugo de naranja\n1 trozo de mantequilla\n2 cucharadas soperas de consomé de pollo en polvo\n1 cucharada sopera de orégano\n1 pizca de sal\n1 pizca de pimienta\n1 trozo de canela en rama\n2 clavos de olor\n Procedimiento: \nLimpia todos los chiles quitándoles bien las semillas y ponlos en una olla con agua hirviendo para que se cuezan junto con los ajos, la cebolla y el jitomate hasta que estén suaves.\nUna vez listos, coloca todos los ingredientes anteriores en la licuadora junto con el consomé de pollo en polvo, el comino, la canela, los clavos de olor, el orégano y el jugo de naranja para obtener una salsa espesita para adobar/aliñar el pollo al horno. Después la cuelas por un colador para que nos quede bien fina y sin resto de pieles.\nTruco: Si es necesario puedes agregar un poco de agua a la salsa para licuarla.\nColoca los trozos de pollo salpimentados en una bolsa o recipiente, agrega la salsa de chiles, mezcla bien y déjalo marinar durante unas dos horas como mínimo para que coja todo el sabor.\nTruco: Si vas a hacer el pollo adobado al horno navideño entero, agrega sal y pimienta y algunos trozos de mantequilla también por su interior.\nUna vez listo el pollo enchilado, colócalo en una charola/bandeja engrasada con un poco de mantequilla junto con toda la salsa. Úntalo bien por encima y tápalo con papel de aluminio.\nCon el horno precalentado a 180 ºC, cocina el pollo al horno para Navidad tapado durante unos 45 minutos aproximadamente, luego destápalo, remójalo con la salsa de nuevo, coloca algunos trozos de mantequilla por encima y deja que se dore (unos 30 minutos más aproximadamente).\nTruco: Si cocinas el pollo al horno entero, asegúrate de untarle bien toda la superficie con la salsa enchilada para que no quede seco.\nDisfruta de tu pollo enchilado al horno para Navidad o para cualquier otra celebración especial acompañado de un arroz blanco, unos frijoles refritos, una ensalada mexicana y una tortillas de maíz por ejemplo.\nSi te ha gustado la receta de Pollo enchilado al horno para Navidad, te sugerimos que entres en nuestra categoría de Recetas de Pollo. También puedes visitar una selección de las mejores recetas mexicanas."
+    ]
+  },
+  {    
+    "tag":"Receta de Higaditos de pollo en salsa con vino blanco",
+    
+    "patrones":[
+        "RReceta de Higaditos de pollo en salsa con vino blanco",
+        "Recetas",
+        "Aves y caza",
+        "Pollo",
+        "Coste barato",
+        "Estofado"
+      ],
+    
+    "respuestas":["RReceta de Higaditos de pollo en salsa con vino blanco \nIngredientes: \n8 higadillos de pollo\n1 cebolla dulce\nPimienta negra molida\njengibre molido\n1/2 vaso de vino blanco\nSal\n1 puñado de perejil fresco\n Procedimiento: \nJuntamos los ingredientes para preparar el hígado de pollo con vino blanco.\nSofreímos los higadillos junto con los cuadritos de cebolla picada. Los tenemos ahí durante unos 10 minutos rehogando hasta que tornan a un tono más oscuro\nAñadimos la copa de vino blanco, una pizca de sal, pimienta y jengibre al gusto y medio puñado de perejil picado. Dejar reducir 10 minutos tapado y removiendo de vez en cuando.\nUna vez reduzca el líquido, servir los higaditos de pollo en salsa con vino blanco recién hechos con el resto del perejil picado. Puedes acompañarlos con un plato de arroz blanco cocido o unas patatas al horno con romero por ejemplo.\nSi te ha gustado la receta de Higaditos de pollo en salsa con vino blanco, te sugerimos que entres en nuestra categoría de Recetas de Pollo."
+    ]
+  },
+  {    
+    "tag":"Receta de Alitas de pollo en salsa de vino blanco",
+    
+    "patrones":[
+        "Receta de Alitas de pollo en salsa de vino blanco",
+        "Recetas",
+        "Aves y caza",
+        "Pollo",
+        "Coste barato",
+        "Estofado"
+      ],
+    
+    "respuestas":["Receta de Alitas de pollo en salsa de vino blanco \nIngredientes: \n12 alitas (separando muslos y picos)\n1 cabeza de ajos\n1 vaso de vino blanco\n1 vaso de caldo de pollo\nAceite\nSal\n2 hojas de laurel\n Procedimiento: \nSe echa en una sartén una cabeza de ajos enteros pelados pero separados y una vez dorados se sacan a un mortero. En ese mismo aceite se fríen las alitas.\nSe fríen en dos veces, por un lado los muslo y por otro los picos de la alas.\nUna vez fritas se pasan a una olla. Se machacan los ajos con un poco de sal y se le agregan junto con un 1 vaso de vino blanco y las hojas de laurel. Se remueve todo y sube el fuego para evaporar el alcohol del vino.\nUna vez reducido el alcohol se echa el vaso de caldo de pollo.\nSi prefieres hacer tú mismo la receta de caldo de pollo básico en vez de comprarlo revisa esta.\nSe prueba de sal las alitas de pollo en salsa con vino blanco y se dejan cocinar unos 5 minutos más y ya esta. Se pueden acompañar de unas patatas fritas, un arroz frito con ajo o una ensalada de judiones por ejemplo.\nSi te ha gustado la receta de Alitas de pollo en salsa de vino blanco, te sugerimos que entres en nuestra categoría de Recetas de Pollo."
+    ]
+  },
+  {    
+    "tag":"Receta de Bizcocho húmedo de calabaza",
+    
+    "patrones":[
+        "Receta de Bizcocho húmedo de calabaza",
+        "Recetas",
+        "Pan y bollería",
+        "Bizcochos",
+        "Coste barato",
+        "Recomendada para veganos",
+        "Al horno"
+      ],
+    
+    "respuestas":["Receta de Bizcocho húmedo de calabaza \nIngredientes: \n250 gramos de harina de trigo\n200 gramos de calabaza\n½ taza de aceite vegetal\n2 cucharadas soperas de margarina\n0,66 taza de panela\n1 cucharadita de esencia de vainilla\n1 cucharadita de canela\n1 cucharadita de bicarbonato\n1 cucharadita de levadura\n1 pizca de sal\n3 cucharadas soperas de pistachos\n50 gramos de chocolate negro\n1 cucharadita de té verde matcha\n Procedimiento: \nCorta la calabaza en dados y cuécela hasta que quede blanda. Escurre bien y aplasta la calabaza con un tenedor hasta hacerla puré.\nDerrite la margarina en el microondas y viértela en un bol, añade el puré de calabaza y el aceite y remueve con un tenedor o un batidor manual de varillas hasta que quede una mezcla homogénea.\nAñade la panela, la vainilla, la sal, la canela y el bicarbonato y sigue removiendo para incorporar bien los ingredientes.\nSi lo deseas prueba también esta receta de bizcocho de calabaza esponjoso en otra ocasión.\nAñade la harina y la levadura y mezcla hasta obtener una masa homogénea. Cubre un molde de bizcocho con papel vegetal y precalienta el horno a 180 grados. Vierte la masa en el molde y hornea el bizcocho durante 40 minutos.\nMientras se enfría el bizcocho, derrite el chocolate al baño María con un chorro de leche vegetal y añade el té matcha.\nRecubre el bizcocho de calabaza cocida con el chocolate y decora con pistachos triturados. Deja enfriar en la nevera hasta que endurezca el chocolate.\nCorta el bizcocho de calabaza húmedo en raciones y sirve con un té o café.\nEn mi blog Vegspiration encontrarás muchísimas otras ideas para preparar bizcochos veganos a tu gusto. ¡Ya verás!\nSi te ha gustado la receta de Bizcocho húmedo de calabaza, te sugerimos que entres en nuestra categoría de Recetas de Bizcochos."
+    ]
+  },
+  {    
+    "tag":"Ponche crema de café casero",
+    
+    "patrones":[
+        "Ponche crema de café casero",
+        "Recetas",
+        "Cócteles y bebidas",
+        "Ponche",
+        "Coste medio",
+        "Recetas para Navidad",
+        "Hervido",
+        "Recetas venezolanas"
+      ],
+    
+    "respuestas":["Ponche crema de café casero \nIngredientes: \n250 mililitros de café (opcional descafeinado)\n250 mililitros de ron blanco (opcional aguardiente)\n1 litro de leche (opcional semidesnatada)\n250 gramos de azúcar blanco\n4 yemas de huevo\n Procedimiento: \nDispón los ingredientes y utensilios necesarios sobre tu mesa de trabajo para preparar esta embriagante receta de ponche crema de café. Para ello, primero separa las yemas de las claras de los 4 huevos y reserva. Segundo, vierte en varios recipientes el resto de los ingredientes, después de medirlos.\nMezcla el azúcar con las 4 yemas de huevo, hasta lograr una consistencia cremosa.\nVierte la leche dentro de un cazo y caliéntala a fuego medio-alto.\nAntes de que la leche hierva, agrega las yemas de huevos y el café. Mezcla hasta integrar todos los ingredientes por completo. Remueve de forma constante y sigue cocinando a fuego medio-bajo para que el ponche crema de café quede en su punto.\nCuando logres el espesor que deseas, agrega el ron y siegue removiendo. Mezcla hasta que el licor se integre al contenido por completo. La consistencia ideal del ponche crema de café es ligeramente espesa, es decir ni muy líquida ni muy densa. Sin embargo, la textura de los ponches caseros y artesanales siempre depende del gusto de quien los prepara.\nTruco: El ron se agrega cerca del final de la preparación porque si no se evapora.\nEsta bebida navideña la puedes servir caliente cuando esté recién preparada o dejarla refrigerada para servirla fría. En Venezuela se consume fría, muchas veces servida con hielo. Este ponche de café se conserva muy bien en el refrigerador durante una semana, incluso más tiempo.\nSin duda, el ponche de café casero le encantará a tus comensales por su textura y delicado sabor. Por favor, comparte con nosotros tu entusiasmo navideño con comentarios y el resultado de tu receta reflejado en una foto. ¡Sería un maravilloso regalo!\nSi te ha gustado la receta de Ponche crema de café casero, te sugerimos que entres en nuestra categoría de Ponche. También puedes visitar una selección de las mejores recetas venezolanas.\nEsta variante del ponche crema tradicional venezolano es magnífica porque el café es una bebida muy aromática y su sabor potencia el ponche. Esta combinación de gustos, sin duda, te trasladará a los sabores caribeños, dándole calidez a tu mesa navideña.\nLa receta que he compartido resulta un atajo fácil y efectivo para crear un ponche exquisito. En 4 pasos tendrás lista una maravillosa bebida para compartir entre tus allegados. Como has podido comprobar, los pasos resultan muy simples. ¿Y los ingredientes? Solo necesitas 5 productos: ron, café, leche, azúcar y 4 yemas de huevo. Esta es la receta más fácil que conozco de ponche y el resultado es divino. Además, los ingredientes son pocos y muy fáciles de conseguir. Para otras versiones de ponche crema se utilizan ingredientes como: leche evaporada, leche condensada, clavos de olor, canela, vainilla, etc. Productos más costosos y al alcance de pocos. Y si te preguntas qué hacer con las claras, siempre puedes preparar un merengue casero.\nPor otro lado, Existen ponches que quizás ni te imaginas: parchita, chocolate, Oreo, coco, entre muchísimas otras versiones creativas y audaces. ¿Te animas a sorprender a tod@s en estas festividades?"
+    ]
+  },
+  {    
+    "tag":"Receta de Chuletas de cerdo en salsa fácil",
+    
+    "patrones":[
+        "Receta de Chuletas de cerdo en salsa fácil",
+        "Recetas",
+        "Carne",
+        "Cerdo",
+        "Coste barato",
+        "Frito"
+      ],
+    
+    "respuestas":["Receta de Chuletas de cerdo en salsa fácil \nIngredientes: \n4 chuletas de cerdo\n1 cucharada sopera de aceite de oliva\n2 tomates grandes partidos por la mitad\n1 cucharada sopera de cebollino picado\n1 pizca de clavo molido\n25 gramos de mantequilla\n25 gramos de harina\n200 mililitros de crema de leche o nata\n1 pizca de pimienta negra molida\n½ cucharadita de sal\n2 cebollas\n Procedimiento: \nCalentamos el aceite en una sartén grande, salpimentamos las chuletas y las vamos friendo a fuego lento durante unos 5 minutos aproximadamente.\nLes damos la vuelta y se añaden los tomates cortados por la mitad y espolvoreados con clavo. Freímos durante diez minutos más.\nMientras se van haciendo las chuletas, vamos preparando la salsa de cebolla. En una sartén ponemos la mantequilla a calentar y en ella freímos la cebolla muy picada, y cuando veamos que está dorada, añadimos la harina y a fuego lento vamos removiendo durante uno o dos minutos.\nApartamos del fuego e incorporamos la crema de leche o nata, salpimentamos, volvemos a poner al fuego y esperamos hasta que la salsa para acompañar chuletas hierva sin dejar de remover, más o menos 3 minutos hasta lograr una salsa espesa y suave.\nPonemos las chuletas de cerdo guisadas y los tomates en una fuente de servir. La salsa de cebolla la rociamos por encima de la carne y a los tomates los espolvoreamos con cebollino picado.\nPodemos acompañar esta receta de chuletas de cerdo en salsa fácil con arroz blanco cocido como os muestro. Pero también tenéis un montón más de opciones de acompañamiento y guarniciones por descubrir en mi blog La Cocina de Catina.\nSi te ha gustado la receta de Chuletas de cerdo en salsa fácil, te sugerimos que entres en nuestra categoría de Recetas de Cerdo."
+    ]
+  }
+]}

@@ -455,7 +455,8 @@ def ChechebotTotal():
             if tagAux["tag"] == tag:
                 respuesta = tagAux["respuestas"]
                 print("Longitud: ",len(random.choice(respuesta)))
-        if(len(random.choice(respuesta) >= 2000) and len(random.choice(respuesta) <= 6000)):
+        if(len(random.choice(respuesta)) >= 2000 and len(random.choice(respuesta)) <= 6000):
+            print("dentro if")
             embed = discord.Embed(title="Receta", description=random.choice(respuesta))        
             await mensaje.channel.send(embed=embed)
         else:       

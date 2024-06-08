@@ -1,3 +1,21 @@
+# Estructura del Repositorio
+El repositorio sigue la siguient estructura:
+.
+|
+|_ data
+|_ docs
+|_ notebooks
+|_ src
+
+Donde:
+- data: Posee las hojas de datos, archivos con información para procesar, asi como salidas de los programas una vez procesados.
+- docs: Se encuentra el PDF de lo que se hizo en el proyecto asi como el objetivo de este.
+- notebooks: Se encuentra los notebooks usados, en este caso se encuentra el notebook del Recomendador.
+- Se encuentran los archivos fuente del proyecto, son un conjunto de archivos `.py`
+
+# Objetivo
+En el pdf se encuentra más desarrollado, pero el objetivo principal del proyecto es presentar dos sistemas, uno de recomendación y otro un chatbot que proporciona recetas de cocina.
+
 # Requisitos para el sistema
 Para que el sistema se totalmente fluido deben instalar los siquiente paquetes:
 1.`pip install -U discord.py`

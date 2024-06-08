@@ -25,7 +25,7 @@ import time
 from urllib import parse, request
 import re
 import youtube_dl
-import wikipedia
+#import wikipedia
 from discord.ext import commands
 #nltk.download('punkt')#Descomentar si algo falla
 
